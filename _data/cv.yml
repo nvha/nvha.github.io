@@ -3,7 +3,13 @@ cv:
   label: Hardware & Network Systems Architect (Ph.D.)
   location: Phoenix, AZ
   email: nvha.dtvt@gmail.com
-  summary: Innovative Hardware Systems Architect & Senior Network Systems Architect with 3+ years of postdoctoral R&D and 5+ years of university research leadership.
+  summary: Innovative Hardware Systems Architect & Senior Network Systems Architect with 3+ years of postdoctoral R&D and 5+ years of university research leadership. Proven expert in translating advanced transport protocols, Software-Defined Networking (SDN) control planes, and P4 data planes into high-performance physical silicon and RTL datapaths (SystemVerilog/Verilog) across Intel Agilex/Stratix and AMD Xilinx Kintex UltraScale+ architectures.
+
+  social_networks:
+    - network: LinkedIn
+      username: nvha
+    - network: Google Scholar
+      username: su5uMxAAAAAJ
 
   sections:
     education:
@@ -29,7 +35,8 @@ cv:
         start_date: 2021-10
         end_date: 2026-04
         highlights:
-          - Directed R&D initiatives within ICTLAB focusing on loss-masking transport frameworks, P4 data-plane telemetry, AQM, adaptive SDN routing, and wireless sensor networks. Supervised 20+ researchers and secured $100k+ R&D funding.
+          - Directed R&D initiatives within ICTLAB focusing on loss-masking transport frameworks, P4 data-plane telemetry, active queue management (AQM), adaptive SDN routing, and wireless sensor networks.
+          - Supervised 20+ researchers and secured over $100k in R&D funding.
 
       - company: Kyushu Institute of Technology
         position: Principal Postdoctoral Researcher & PI
@@ -37,7 +44,8 @@ cv:
         start_date: 2018-04
         end_date: 2021-09
         highlights:
-          - Served as Principal Investigator (PI) for two JSPS KAKEN Grants-in-Aid (4.42M JPY). Engineered resilient TCP/NC transport frameworks and dynamic SDN control planes.
+          - Served as Principal Investigator (PI) for two JSPS KAKEN Grants-in-Aid (4.42M JPY).
+          - Engineered resilient TCP/NC transport frameworks and dynamic SDN routing control planes to mask channel losses and prevent timeout degradation.
 
       - company: University of Science
         position: Associate Lecturer, Network Administrator & Faculty Registrar
@@ -45,36 +53,48 @@ cv:
         start_date: 2009-09
         end_date: 2014-03
         highlights:
-          - Architected an FPGA-based 2x2 MIMO-OFDM SDM Transceiver (400 Mbps) using custom DSP pipelines. Managed departmental L2/L3 networking infrastructure.
+          - Architected an FPGA-based 2x2 MIMO-OFDM SDM Transceiver (400 Mbps) using custom DSP pipelines.
+          - Managed departmental L2/L3 networking infrastructure and mentored student teams to 2nd place in Cisco NetRiders national competition.
 
     projects:
       - name: High-Speed Hardware-in-the-Loop (HITL) Link Emulation
         start_date: 2026-04
-        end_date: Present
+        end_date: present
         highlights:
-          - Architected multi-vendor HITL emulation bridging Intel Agilex 5 and Xilinx Kintex UltraScale+ FPGAs over HSMC-XTS and PCIe 3.0x4. Designed 1024-bit datapath operating at 156.25/312.5 MHz (320 Gbps capacity).
+          - Architected a multi-vendor HITL emulation system bridging Intel Agilex 5 and Xilinx Kintex UltraScale+ FPGAs over HSMC-XTS and PCIe 3.0x4 interfaces.
+          - Designed an ultra-wide 1024-bit datapath operating at 156.25/312.5 MHz (up to 320 Gbps pipeline capacity) with PCIe DMA streaming.
 
-      - name: Real-Time AWGN Hardware Generator
+      - name: Wireless System Emulation - Real-Time AWGN Hardware Generator
         start_date: 2025-09
         end_date: 2026-02
         highlights:
-          - Designed 512-bit wide AXI-Stream datapaths achieving 375MHz+ on Intel Agilex 7 and Xilinx FPGAs with APB interfaces for dynamic C/C++ SDN software control.
+          - Designed 512-bit wide AXI-Stream datapaths achieving 375MHz+ on Intel Agilex 7 and Xilinx FPGAs.
+          - Implemented APB interfaces for dynamic C/C++ SDN software control and automated TCL synthesis/build flows.
+
+      - name: Programmable Data Plane (P4) for Telemetry & Loss Mitigation
+        start_date: 2024-01
+        end_date: 2025-01
+        highlights:
+          - Architected a hop-by-hop multicast packet loss recovery scheme using P4 BMv2 switches and ns-3.
+          - Designed a custom 8-byte Control Header with a 40-bit sequence for microsecond-precision in-band telemetry tracking.
 
     awards:
-      - title: International Conference Best Paper Awards
+      - title: International Conference Best Paper Awards (3-Time Recipient)
         date: 2022
         awarder: International Conference Committees
-        summary: Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022).
+        summary: Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research.
 
       - title: JSPS KAKEN Grants-in-Aid Principal Investigator
         date: 2020
         awarder: Japan Society for the Promotion of Science (JSPS)
-        summary: Awarded 2 competitive research grants totaling 4.42 Million JPY.
+        summary: Awarded 2 competitive research grants (Grant IDs 18H06467 & 20K19785) totaling 4.42 Million JPY for self-healing network protocols.
 
     skills:
-      - name: Hardware & RTL Design
-        keywords: "SystemVerilog, Verilog, FPGA (Intel Agilex/Stratix, AMD Xilinx Kintex UltraScale+), Pre/Post-Silicon Validation, HW Emulation, 1024-bit / 512-bit AXI-Stream, PCIe 3.0, DMA, SerDes, Ethernet MAC/PHY, APB"
+      - name: Hardware & Digital Logic Design (RTL)
+        details: "SystemVerilog, Verilog, FPGA (Intel Agilex/Stratix, AMD Xilinx Kintex UltraScale+), Pre/Post-Silicon Validation, HW Emulation, 1024-bit / 512-bit AXI-Stream, PCIe 3.0, DMA, SerDes, Ethernet MAC/PHY, APB"
+
       - name: Network Protocols & Data Planes
-        keywords: "P4 (BMv2 Switch), SDN / OpenFlow / RYU Controller, TCP/IP, UDP, TCP/NC, AQM, In-Band Network Telemetry (INT)"
+        details: "P4 (BMv2 Switch), SDN / OpenFlow / RYU Controller, TCP/IP, UDP, TCP/NC, AQM, Loss Masking, In-Band Network Telemetry (INT)"
+
       - name: Software & Simulation
-        keywords: "C/C++, Python, MATLAB, Simulink, ns-3, Mininet, TCL, Bash, Linux (Embedded/PetaLinux), Vivado, Quartus, ModelSim, Wireshark"
+        details: "C/C++, Python, MATLAB, Simulink, ns-3, Mininet, TCL, Bash, Linux (Embedded/PetaLinux), Vivado, Quartus, ModelSim, Wireshark"
