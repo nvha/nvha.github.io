@@ -161,10 +161,9 @@ cv:
         summary: Authored over 40 peer-reviewed international papers (including 7 journal articles), specializing in transport layer optimization (TCP/NC), P4 programmable data planes, congestion control, packet loss recovery, and wireless hardware emulation.
 
     Certificates:
-      - name: CCAI (Cisco Certified Academy Instructor) - CCNA / Security
+      - name: '<img src="https://cdn.simpleicons.org/cisco" style="height: 18px; margin-right: 6px; vertical-align: middle;"> CCAI (Cisco Certified Academy Instructor) - CCNA / Security'
         date: "2013-01-01"
         issuer: Cisco Networking Academy
-        icon: fa-solid fa-certificate
 
       - name: MCSE / MCSA
         date: "2012-01-01"
