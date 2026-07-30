@@ -24,7 +24,8 @@ cv:
   sections:
     Education:
       - institution: Kyushu Institute of Technology
-        location: Fukuoka, Japan
+        location: Fukuoka,
+        Japan
         url: https://www.kyutech.ac.jp/
         area: Computer Science and Systems Engineering
         studyType: PhD
