@@ -5,9 +5,9 @@
 cv_pdf: /assets/pdf/CV_Nguyen_Viet_Ha.pdf # path to your CV PDF file saved in assets/pdf/
 email: nvha.dtvt@gmail.com # your email address
 
-github_username: nvha
+# github_username: nvha
 linkedin_username: nvha
 scholar_userid: su5uMxAAAAAJ # your Google Scholar ID
 
 # inspirehep_id: # commented out as it's primarily for high-energy physics
-rss_icon: true # displays the RSS icon
+# rss_icon: true # displays the RSS icon
