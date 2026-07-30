@@ -1,28 +1,44 @@
 cv:
-  name: Ha Nguyen
-  label: Hardware & Network Systems Architect (Ph.D.)
-  email: nvha.dtvt@gmail.com
-  location: Phoenix, AZ
-  summary: Innovative Hardware Systems Architect & Senior Network Systems Architect with 3+ years of postdoctoral R&D and 5+ years of university research leadership.
+  name: "Ha Nguyen, Ph.D."
+  label: "Hardware Systems Architect & Senior Network Systems Architect"
+  email: "nvha.dtvt@gmail.com"
+  phone: "360-771-2424"
+  location: "Phoenix, AZ (US Person - Permanent Resident)"
+  summary: "Innovative Hardware Systems Architect, Senior Network Systems Architect & R&D Lead (Ph.D.) with 3 years of dedicated post-doctoral R&D alongside 5+ years of university research leadership. Proven expert in translating advanced transport protocols, Software-Defined Networking (SDN/OpenFlow) control planes, and networking logic into high-performance physical-layer silicon and programmable data planes. Proven record of protocol innovation with 40+ peer-reviewed publications across IEEE and IEICE, specializing in TCP/NC frameworks, custom ACK generation mechanics, tail-loss mitigation, active queue management (AQM), dynamic load balancing, and P4 programmable data planes. Expert in full-stack RTL design (SystemVerilog/Verilog), high-speed DSP pipelines, HW/SW co-design, pre-silicon validation, and discrete-event network simulation (ns-3, Mininet) across Intel Agilex, Stratix, and AMD Xilinx architectures."
 
   social_networks:
     - network: LinkedIn
       username: nvha
-    - network: GitHub
-      username: nvha
+      url: https://www.linkedin.com/in/nvha
     - network: Google Scholar
       username: su5uMxAAAAAJ
+      url: https://scholar.google.com/citations?user=su5uMxAAAAAJ
 
   sections:
+    Technical_Skills:
+      - category: "Core Domains"
+        details: "FPGA & ASIC Design, RTL Design, Hardware Emulation, Hardware Verification, Pre/Post-Silicon Validation, HW/SW Co-Design, DSP Algorithms, Packet Processing, FEC Architectures, High-Speed Datapaths, Network Modeling & Simulation, Transport Protocols (TCP/IP, UDP, TCP/NC), Software-Defined Networking (SDN / OpenFlow), Flow & Congestion Control, Active Queue Management (AQM), Packet Loss Masking, Tail-Latency Reduction, Adaptive Routing & Load Balancing, Programmable Data Planes (P4), Traffic Engineering, Fault Tolerance"
+
+      - category: "Software & Scripting"
+        details: "SystemVerilog, Verilog, P4, C/C++, Python, TCL, MATLAB, Simulink, Bash, Git, Linux (Ubuntu, PetaLinux, Embedded), Agile"
+
+      - category: "Hardware & Protocols"
+        details: "FPGAs (Intel Agilex/Stratix, AMD Xilinx Kintex UltraScale+), Microcontrollers, Synopsys Synphony, Altera DSP Builder, PCIe, DMA, SerDes, Ethernet MAC/PHY, AXI-Stream, APB, Digital Logic Synthesis"
+
+      - category: "Systems & Simulation"
+        details: "Vivado (Block Designer), Quartus (Platform Designer), ModelSim, ns-3 Network Simulator, Mininet, RYU OpenFlow Controller, BMv2 Software Switch, GNS3, Packet Tracer, Wireshark"
+
     Experience:
       - company: "University of Science"
-        position: "Network Systems Researcher & Lab Supervisor"
+        position: "Network Systems Researcher & Laboratory Supervisor"
         location: "Ho Chi Minh City, Vietnam"
         start_date: "2021-10"
         end_date: "2026-04"
         highlights:
-          - "Directed R&D initiatives within ICTLAB focusing on loss-masking transport frameworks, P4 data-plane telemetry, AQM, adaptive SDN routing, and wireless sensor networks."
-          - "Supervised 20+ researchers and secured over $100k in R&D funding."
+          - "Directed major R&D initiatives within the ICTLAB focusing on high-performance networking, wireless communication, and health sensors, architecting loss-masking transport frameworks, proactive FEC queue management models, and a Fault-Tolerant TDMA Framework for Large Wireless Sensor Networks (LWSNs)."
+          - "Led and supervised 20+ graduate and undergraduate researchers, directing thesis projects on P4 data-plane telemetry, active queue management (AQM), adaptive SDN routing optimization/load balancing, and IoT network modeling (including LoRa, NB-IoT, and PLC)."
+          - "Co-founded the ICTLAB, designing and delivering advanced curricula for communication systems and sensor networks that bridge theoretical routing, transport protocol theory, and DSP principles with FPGA prototyping, C++/Python discrete-event network modeling (ns-3), and real-time embedded applications."
+          - "Secured and managed over $100,000 in competitive R&D funding across 7 projects (including VNU-HCM Class-B Grant B2023-18-01 and a 1-Billion VND Industry Collaboration), authoring over 20 international peer-reviewed papers (IEEE/IEICE/Scopus), and mentoring student researchers to a Best Paper Award (2022)."
 
       - company: "Kyushu Institute of Technology"
         position: "Principal Postdoctoral Researcher & PI"
@@ -30,67 +46,117 @@ cv:
         start_date: "2018-04"
         end_date: "2021-09"
         highlights:
-          - "Served as Principal Investigator (PI) for two JSPS KAKEN Grants-in-Aid (4.42M JPY)."
-          - "Engineered resilient TCP/NC transport frameworks and dynamic SDN routing control planes to mask channel losses."
+          - "Served as Principal Investigator (PI) for two prestigious JSPS KAKEN Grants-in-Aid for IoT reliability and 'self-healing' network projects (Grant IDs: 18H06467 & 20K19785, totaling 4.42M JPY), leading 3 years of dedicated post-doctoral protocol R&D that earned two international Best Paper Awards (2019, 2020)."
+          - "Headed R&D projects to engineer resilient TCP with Network Coding (TCP/NC) transport frameworks and centralized SDN architectures tailored to actively mask lossy transport channels, prevent TCP retransmission timeouts, and reduce tail latency."
+          - "Developed high-level software models and discrete-event simulations in C++ and Python to bridge theoretical network capacity algorithms with practical, real-time packet processing, queue management, and hardware-applicable architectures."
+          - "Designed and delivered specialized lectures on SDN architectures, OpenFlow control mechanisms, Ryu OpenFlow controllers, and Mininet programmable network topologies for the City College of New York (CCNY)."
+          - "Architected resilient end-to-end protocols and SDN-based architectures, performing control logic development, real-time traffic engineering, and performance characterization for high-density sensor deployments."
 
       - company: "University of Science"
-        position: "Associate Lecturer & Network Administrator"
+        position: "Associate Lecturer, Network Administrator & Faculty Registrar"
         location: "Ho Chi Minh City, Vietnam"
         start_date: "2009-09"
         end_date: "2014-03"
         highlights:
-          - "Architected an FPGA-based 2x2 MIMO-OFDM SDM Transceiver (400 Mbps) using custom DSP pipelines."
-          - "Managed departmental L2/L3 networking infrastructure and mentored student teams to 2nd place in Cisco NetRiders national competition."
-
-    Education:
-      - institution: "Kyushu Institute of Technology"
-        area: "Computer Science and Systems Engineering"
-        degree: "Ph.D."
-        start_date: "2014-09"
-        end_date: "2017-09"
-        location: "Fukuoka, Japan"
-        highlights:
-          - "Dissertation: Studies on Improvement and Application of TCP with Network Coding in Lossy Networks."
-
-      - institution: "University of Science"
-        area: "Electronics and Telecommunications Engineering"
-        degree: "M.S. & B.S."
-        start_date: "2005-09"
-        end_date: "2012-06"
-        location: "Ho Chi Minh City, Vietnam"
+          - "Conducted applied research in physical-layer communications, directly architecting an FPGA-Based 2x2 MIMO-OFDM SDM Transceiver that achieved 400 Mbps throughput using custom DSP pipelines to test hardware-level forwarding performance."
+          - "Managed departmental network infrastructure as Administrator, earning multiple Merit Awards for lecturing excellence and applying hands-on L2/L3 routing (OSPF/BGP), switching, VLAN segmentation, and network security configurations in a live production environment."
+          - "Served as Faculty Registrar and Academic Affairs Officer (12/2012--04/2014), coordinating academic programs, student progress tracking, and departmental scheduling."
+          - "Mentored student teams to competitive success, including a 2nd-place national finish in the Cisco NetRiders contest (2013)."
+          - "Maintained active certifications as a CCAI (Cisco Certified Academy Instructor) for CCNA/Security and MCSE/MCSA, integrating industry-standard networking protocols (like OSPF) and systems engineering troubleshooting into academic programs."
 
     Projects:
       - name: "High-Speed Hardware-in-the-Loop (HITL) Link Emulation"
         start_date: "2026-04"
         end_date: "Present"
+        tools: "Intel Agilex 5 (DE25), Xilinx Kintex UltraScale+ (KU5P), TI LMK62E2, SystemVerilog, PCIe 3.0, DMA, HSMC, SMA, Ethernet"
         highlights:
-          - "Architected a multi-vendor HITL emulation system bridging Intel Agilex 5 and Xilinx Kintex UltraScale+ FPGAs over HSMC-XTS and PCIe 3.0x4 interfaces."
-          - "Designed an ultra-wide 1024-bit datapath operating at 156.25/312.5 MHz (up to 320 Gbps pipeline capacity) with PCIe DMA streaming."
+          - "Architected a heterogeneous hardware-in-the-loop (HITL) emulation system bridging Intel Agilex 5 and Xilinx Kintex UltraScale+ FPGAs over multi-vendor interfaces (HSMC-XTS, SFP-to-SMA, PCIe 3.0x4)."
+          - "Utilized a TI LMK62E2 high-performance oscillator driving an industry-standard 156.25 MHz SerDes reference clock to lock transceivers and synchronize physical layer links."
+          - "Designed an ultra-wide 1024-bit packet processing datapath operating on an industry-standard 156.25 MHz / 312.5 MHz core clock (up to 320 Gbps internal pipeline capacity), executing real-time header parsing, deparsing, field modification, and packet filtering."
+          - "Engineered host-to-FPGA streaming pipelines via PCIe 3.0x4 DMA, enabling end-to-end packet processing while architecting embedded Network Coding (NC) encoder/decoder offload logic."
 
-      - name: "Real-Time AWGN Hardware Generator"
+      - name: "Wireless System Emulation: AWGN Hardware Emulator"
         start_date: "2025-09"
         end_date: "2026-02"
+        tools: "Quartus, Vivado, SystemVerilog, Modelsim, TCL, Python, C, Git"
         highlights:
-          - "Designed 512-bit wide AXI-Stream datapaths achieving 375MHz+ on Intel Agilex 7 and Xilinx FPGAs."
-          - "Implemented APB interfaces for dynamic C/C++ SDN software control and automated TCL synthesis/build flows."
+          - "Architected a resource-optimized, real-time embedded AWGN hardware generator supporting multi-rates and multi-users, integrated with an APB interface for dynamic C/C++ SDN software control."
+          - "Designed 512-bit wide AXI-Stream datapaths achieving 375MHz+ (up to 400MHz max operating frequency) on Intel Agilex 7 and Xilinx FPGAs, optimizing strict latency requirements for physical silicon translation."
+          - "Developed scalable control state machines, low-level drivers, and high-level software to control high-fidelity noise generation, sweeping SNR from -30 dB to 45 dB with precise real-time configuration."
+          - "Automated build flows by authoring custom TCL scripts for project generation and pin assignments, streamlining model usability and continuous pre-silicon integration."
+          - "Facilitated HW/SW co-design by implementing APB master/slave interfaces via Vivado Block Designer and Intel Platform Designer, providing memory-mapped register access for software validation teams via C drivers."
 
-    Awards:
-      - title: "International Conference Best Paper Awards (3-Time Recipient)"
-        awarder: "International Conference Committees"
-        date: "2022"
-        summary: "Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research."
+      - name: "Programmable Data Plane (P4) for Monitoring & Loss Mitigation"
+        start_date: "2024-01"
+        end_date: "2025-01"
+        tools: "P4, BMv2 Switch, ns-3, C++, Python, Mininet"
+        highlights:
+          - "Architected and validated a hop-by-hop packet loss recovery scheme for reliable multicast using P4-enabled switches, achieving a 36% reduction in transfer times under severe link loss via ns-3 simulations."
+          - "Engineered a custom 8-byte Control Header featuring a 40-bit Success_Check sequence to provide in-band telemetry, tracking packet arrival jitter and queue occupancy with microsecond precision."
+          - "Implemented data-plane packet buffering via a P4 recirculation port queue, enabling intermediate switches to trigger localized retransmissions without central controller intervention."
+          - "Programmed foundational P4 pipelines on the BMv2 software switch to dynamically manage network flow control and queue depths."
 
-      - title: "JSPS KAKEN Grants-in-Aid Principal Investigator"
-        awarder: "Japan Society for the Promotion of Science (JSPS)"
-        date: "2020"
-        summary: "Awarded 2 competitive research grants (Grant IDs 18H06467 & 20K19785) totaling 4.42 Million JPY for self-healing network protocols."
+      - name: "Fault-Tolerant TDMA Framework for LWSNs & Constellation Networks"
+        start_date: "2023-10"
+        end_date: "2025-09"
+        tools: "ns-3, C++, Python"
+        highlights:
+          - "Performed protocol-level algorithm development to architect a proactive packet loss recovery framework, integrating hop-by-hop Forward Error Correction (FEC) / Erasure Coding with TDMA scheduling."
+          - "Utilized a 1-step Hill Climbing search algorithm to optimize TDMA timeslots and maintain >99% reliability under aggressive 50% link-loss environments."
+          - "Programmed scalable software models in C++ and Python to simulate data paths over a 20-mile multi-hop linear topology to optimize timeslot allocations."
 
-    Skills:
-      - name: "Hardware & Digital Logic Design (RTL)"
-        details: "SystemVerilog, Verilog, FPGA (Intel Agilex/Stratix, AMD Xilinx Kintex UltraScale+), Pre/Post-Silicon Validation, HW Emulation, 1024-bit / 512-bit AXI-Stream, PCIe 3.0, DMA, SerDes, Ethernet MAC/PHY, APB"
+      - name: "Self-Healing Dynamic Routing Protocol (SDN-FEDRP)"
+        start_date: "2021-01"
+        end_date: "2021-12"
+        tools: "OpenFlow, RYU Controller, Mininet, Python"
+        highlights:
+          - "Architected a dynamic routing protocol for SDN to actively optimize load balancing, manage real-time link utilization, and prevent data flow congestion across complex topologies."
+          - "Engineered a custom routing algorithm on the Python-based RYU controller leveraging Depth First Search (DFS) to discover paths and calculate costs dynamically."
+          - "Implemented an automated OpenFlow reallocation mechanism governed by a fairness factor, validating via Mininet and achieving a 7x improvement in load balancing versus standard SDN-OSPF."
 
-      - name: "Network Protocols & Data Planes"
-        details: "P4 (BMv2 Switch), SDN / OpenFlow / RYU Controller, TCP/IP, UDP, TCP/NC, AQM, Loss Masking, In-Band Network Telemetry (INT)"
+      - name: "TCP with Network Coding (TCP/NC)"
+        start_date: "2017-03"
+        end_date: "2020-03"
+        tools: "ns-3, C++, Python"
+        highlights:
+          - "Engineered resilient embedded transport layer state machines and a custom ACK generator in C++ (ACK accumulation, duplicate generation, proactive loss masking) to sustain high goodput (70% of link/70 Mbps) under heavy bi-directional burst conditions while accelerating recovery, preventing TCP timeouts, and eliminating tail loss in low-latency networks."
+          - "Conducted extensive ns-3 simulations to optimize TCP flow control and ACK generation mechanics, delivering a fault-tolerant solution that manages TCP flow control, prevents TCP Timeouts, minimizes tail latency, and eliminates excessive redundancy bandwidth waste."
 
-      - name: "Software & Simulation"
-        details: "C/C++, Python, MATLAB, Simulink, ns-3, Mininet, TCL, Bash, Linux (Embedded/PetaLinux), Vivado, Quartus, ModelSim, Wireshark"
+      - name: "Wireless System Emulation: MU-MIMO Channel Emulator (802.11ac)"
+        start_date: "2015-09"
+        end_date: "2016-11"
+        tools: "Synopsys Synphony, Quartus, Modelsim, MATLAB, Simulink"
+        highlights:
+          - "Developed a 4x4 MU-MIMO real-time embedded hardware channel emulator, utilizing MATLAB and Simulink for applied physics modeling of 35 propagation taps and 80 MHz bandwidths."
+          - "Optimized hardware resource allocation to slash Stratix IV FPGA logic utilization from a theoretical 16,800% down to 20%, leveraging Synopsys Synphony to emulate and consolidate parallel filtering architectures onto a single die."
+
+      - name: "FPGA-Based 2x2 MIMO-OFDM SDM Transceiver"
+        start_date: "2011-09"
+        end_date: "2012-12"
+        tools: "Quartus, Altera DSP Builder, MATLAB, Simulink"
+        highlights:
+          - "Architected a complete 2x2 Spatial Division Multiplexing baseband transceiver, driving the design through FPGA prototyping and emulation to achieve a low-latency 400 Mbps datapath."
+          - "Engineered high-performance DSP pipelines (256-point FFT/IFFT, 16-QAM) and FEC architectures (Viterbi decoding), developing custom pipelined 18-bit fixed-point arithmetic units to eliminate fixed-point mathematical overflow."
+
+    Publications_Grants_Awards:
+      - category: "Publications"
+        details: "Authored over 40 peer-reviewed international papers (IEEE/IEICE/Scopus), including 7 journal articles, specializing in transport layer optimization, P4 programmable data planes, congestion control, packet loss recovery, and wireless hardware emulation."
+
+      - category: "Research Grants"
+        details: "Principal Investigator (PI) and Key Lead across 10+ competitive grants funded by Japanese (JSPS KAKEN) and Vietnamese governments/industry, securing over $100,000+ in project funding."
+
+      - category: "Recognitions & Awards"
+        details: "Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022), Cisco Instructor Years of Service Award (Mentored 2nd Place Cisco NetRiders National Student Team, 2013), and multiple University Merit Awards for Academic Excellence."
+
+    Education:
+      - institution: "Kyushu Institute of Technology"
+        degree: "Ph.D., Computer Science and Systems Engineering"
+        location: "Fukuoka, Japan"
+        start_date: "2014-04"
+        end_date: "2017-03"
+
+      - institution: "University of Science"
+        degree: "M.S. & B.S., Electronics and Telecommunications Engineering"
+        location: "Ho Chi Minh City, Vietnam"
+        start_date: "2005-09"
+        end_date: "2012-09"
