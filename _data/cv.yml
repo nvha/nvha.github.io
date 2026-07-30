@@ -14,14 +14,14 @@ cv:
       username: su5uMxAAAAAJ
 
   sections:
-    experience:
+    Experience:
       - company: "University of Science"
-        position: "Network Systems Researcher & Laboratory Supervisor"
+        position: "Network Systems Researcher & Lab Supervisor"
         location: "Ho Chi Minh City, Vietnam"
         start_date: "2021-10"
         end_date: "2026-04"
         highlights:
-          - "Directed R&D initiatives within ICTLAB focusing on loss-masking transport frameworks, P4 data-plane telemetry, active queue management (AQM), adaptive SDN routing, and wireless sensor networks."
+          - "Directed R&D initiatives within ICTLAB focusing on loss-masking transport frameworks, P4 data-plane telemetry, AQM, adaptive SDN routing, and wireless sensor networks."
           - "Supervised 20+ researchers and secured over $100k in R&D funding."
 
       - company: "Kyushu Institute of Technology"
@@ -34,7 +34,7 @@ cv:
           - "Engineered resilient TCP/NC transport frameworks and dynamic SDN routing control planes to mask channel losses."
 
       - company: "University of Science"
-        position: "Associate Lecturer, Network Administrator & Faculty Registrar"
+        position: "Associate Lecturer & Network Administrator"
         location: "Ho Chi Minh City, Vietnam"
         start_date: "2009-09"
         end_date: "2014-03"
@@ -42,7 +42,7 @@ cv:
           - "Architected an FPGA-based 2x2 MIMO-OFDM SDM Transceiver (400 Mbps) using custom DSP pipelines."
           - "Managed departmental L2/L3 networking infrastructure and mentored student teams to 2nd place in Cisco NetRiders national competition."
 
-    education:
+    Education:
       - institution: "Kyushu Institute of Technology"
         area: "Computer Science and Systems Engineering"
         degree: "Ph.D."
@@ -59,7 +59,7 @@ cv:
         end_date: "2012-06"
         location: "Ho Chi Minh City, Vietnam"
 
-    projects:
+    Projects:
       - name: "High-Speed Hardware-in-the-Loop (HITL) Link Emulation"
         start_date: "2026-04"
         end_date: "Present"
@@ -74,14 +74,7 @@ cv:
           - "Designed 512-bit wide AXI-Stream datapaths achieving 375MHz+ on Intel Agilex 7 and Xilinx FPGAs."
           - "Implemented APB interfaces for dynamic C/C++ SDN software control and automated TCL synthesis/build flows."
 
-      - name: "Programmable Data Plane (P4) for Telemetry & Loss Mitigation"
-        start_date: "2024-01"
-        end_date: "2025-01"
-        highlights:
-          - "Architected a hop-by-hop multicast packet loss recovery scheme using P4 BMv2 switches and ns-3."
-          - "Designed a custom 8-byte Control Header with a 40-bit sequence for microsecond-precision in-band telemetry tracking."
-
-    awards:
+    Awards:
       - title: "International Conference Best Paper Awards (3-Time Recipient)"
         awarder: "International Conference Committees"
         date: "2022"
@@ -92,7 +85,7 @@ cv:
         date: "2020"
         summary: "Awarded 2 competitive research grants (Grant IDs 18H06467 & 20K19785) totaling 4.42 Million JPY for self-healing network protocols."
 
-    skills:
+    Skills:
       - name: "Hardware & Digital Logic Design (RTL)"
         details: "SystemVerilog, Verilog, FPGA (Intel Agilex/Stratix, AMD Xilinx Kintex UltraScale+), Pre/Post-Silicon Validation, HW Emulation, 1024-bit / 512-bit AXI-Stream, PCIe 3.0, DMA, SerDes, Ethernet MAC/PHY, APB"
 
