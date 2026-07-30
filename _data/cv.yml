@@ -24,8 +24,8 @@ cv:
         url: https://www.kyutech.ac.jp/
         area: Computer Science and Systems Engineering
         studyType: Ph.D.
-        start_date: 2014
-        end_date: 2017
+        startDate: "2014"
+        endDate: "2017"
         summary: "Dissertation: Studies on Improvement and Application of TCP with Network Coding in Lossy Networks."
 
       - institution: University of Science
@@ -33,85 +33,85 @@ cv:
         url: https://www.hcmus.edu.vn/
         area: Electronics and Telecommunications Engineering
         studyType: M.S. & B.S.
-        start_date: 2005
-        end_date: 2012
+        startDate: "2005"
+        endDate: "2012"
 
     Experience:
-      - company: University of Science
+      - name: University of Science
         position: Network Systems Researcher & Laboratory Supervisor
         location: Ho Chi Minh City, Vietnam
-        start_date: 2021-10-01
-        end_date: 2026-04-30
+        startDate: "2021-10-01"
+        endDate: "2026-04-30"
         summary: Directed R&D initiatives within ICTLAB focusing on loss-masking transport frameworks, P4 data-plane telemetry, active queue management (AQM), adaptive SDN routing, and wireless sensor networks. Supervised 20+ researchers and secured over $100k in R&D funding.
 
-      - company: Kyushu Institute of Technology
+      - name: Kyushu Institute of Technology
         position: Principal Postdoctoral Researcher & PI
         location: Fukuoka, Japan
-        start_date: 2018-04-01
-        end_date: 2021-09-30
+        startDate: "2018-04-01"
+        endDate: "2021-09-30"
         summary: Served as Principal Investigator (PI) for two JSPS KAKEN Grants-in-Aid (4.42M JPY). Engineered resilient TCP/NC transport frameworks and dynamic SDN routing control planes to mask channel losses and prevent timeout degradation.
 
-      - company: University of Science
+      - name: University of Science
         position: Associate Lecturer, Network Administrator & Faculty Registrar
         location: Ho Chi Minh City, Vietnam
-        start_date: 2009-09-01
-        end_date: 2014-03-31
+        startDate: "2009-09-01"
+        endDate: "2014-03-31"
         summary: Architected an FPGA-based 2x2 MIMO-OFDM SDM Transceiver (400 Mbps) using custom DSP pipelines. Managed departmental L2/L3 networking infrastructure and mentored student teams to 2nd place in Cisco NetRiders national competition.
 
     Projects:
       - name: High-Speed Hardware-in-the-Loop (HITL) Link Emulation
-        start_date: 2026-04-01
-        end_date: Present
+        startDate: "2026-04-01"
+        endDate: "Present"
         summary: Architected a multi-vendor HITL emulation system bridging Intel Agilex 5 and Xilinx Kintex UltraScale+ FPGAs over HSMC-XTS and PCIe 3.0x4 interfaces. Designed an ultra-wide 1024-bit datapath operating at 156.25/312.5 MHz (up to 320 Gbps pipeline capacity) with PCIe DMA streaming.
 
       - name: Wireless System Emulation - Real-Time AWGN Hardware Generator
-        start_date: 2025-09-01
-        end_date: 2026-02-28
+        startDate: "2025-09-01"
+        endDate: "2026-02-28"
         summary: Designed 512-bit wide AXI-Stream datapaths achieving 375MHz+ on Intel Agilex 7 and Xilinx FPGAs. Implemented APB interfaces for dynamic C/C++ SDN software control and automated TCL synthesis/build flows.
 
       - name: Programmable Data Plane (P4) for Telemetry & Loss Mitigation
-        start_date: 2024-01-01
-        end_date: 2025-01-31
+        startDate: "2024-01-01"
+        endDate: "2025-01-31"
         summary: Architected a hop-by-hop multicast packet loss recovery scheme using P4 BMv2 switches and ns-3. Designed a custom 8-byte Control Header with a 40-bit sequence for microsecond-precision in-band telemetry tracking.
 
       - name: Fault-Tolerant TDMA Framework for Constellation & Sensor Networks
-        start_date: 2023-10-01
-        end_date: 2025-09-30
+        startDate: "2023-10-01"
+        endDate: "2025-09-30"
         summary: Integrated hop-by-hop FEC/Erasure Coding with TDMA scheduling via a 1-step Hill Climbing algorithm, maintaining >99% reliability under aggressive 50% link-loss conditions.
 
       - name: Self-Healing Dynamic Routing Protocol (SDN-FEDRP)
-        start_date: 2021-01-01
-        end_date: 2021-12-31
+        startDate: "2021-01-01"
+        endDate: "2021-12-31"
         summary: Engineered a dynamic RYU controller routing algorithm using DFS and fairness-governed OpenFlow reallocations, demonstrating a 7x load-balancing improvement over standard OSPF.
 
       - name: TCP with Network Coding (TCP/NC) Transport Stack
-        start_date: 2017-03-01
-        end_date: 2020-03-31
+        startDate: "2017-03-01"
+        endDate: "2020-03-31"
         summary: Developed C++ transport state machines with custom ACK generators (duplicate generation, ACK accumulation) that sustained 70 Mbps goodput under heavy bi-directional burst loss without timeouts.
 
     Awards:
       - title: International Conference Best Paper Awards (3-Time Recipient)
-        date: 2022
+        date: "2022"
         awarder: International Conference Committees
         summary: Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research.
 
       - title: JSPS KAKEN Grants-in-Aid Principal Investigator
-        date: 2020
+        date: "2020"
         awarder: Japan Society for the Promotion of Science (JSPS)
         summary: Awarded 2 competitive research grants (Grant IDs 18H06467 & 20K19785) totaling 4.42 Million JPY for self-healing network protocols.
 
       - title: Cisco Instructor Years of Service & Student Competition Award
-        date: 2013
+        date: "2013"
         awarder: Cisco Networking Academy
         summary: Cisco Certified Academy Instructor (CCAI); mentored student team to 2nd place in the Cisco NetRiders National Competition.
 
     Certificates:
       - name: CCAI (Cisco Certified Academy Instructor) - CCNA & Security
-        date: 2013-01-01
+        date: "2013-01-01"
         issuer: Cisco Systems
 
       - name: MCSE / MCSA (Microsoft Certified Systems Engineer)
-        date: 2012-01-01
+        date: "2012-01-01"
         issuer: Microsoft
 
     Skills:
@@ -132,5 +132,3 @@ cv:
         summary: "Professional Working Proficiency"
       - name: Vietnamese
         summary: "Native Speaker"
-      - name: Japanese
-        summary: "Basic Proficiency"
