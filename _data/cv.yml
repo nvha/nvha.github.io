@@ -1,134 +1,121 @@
-cv:
-  name: Ha Nguyen
-  label: Hardware & Network Systems Architect (Ph.D.)
-  email: nvha.dtvt@gmail.com
-  location: Phoenix, AZ
-  image: ""
-  summary: Innovative Hardware Systems Architect & Senior Network Systems Architect with 3+ years of postdoctoral R&D and 5+ years of university research leadership. Proven expert in translating advanced transport protocols, Software-Defined Networking (SDN) control planes, and P4 data planes into high-performance physical silicon and RTL datapaths (SystemVerilog/Verilog) across Intel Agilex/Stratix and AMD Xilinx Kintex UltraScale+ architectures.
+- title: General Information
+  type: nested
+  contents:
+    - title: Full Name
+      value: Ha Nguyen
+    - title: Role
+      value: Hardware & Network Systems Architect (Ph.D.)
+    - title: Email
+      value: nvha.dtvt@gmail.com
+    - title: Location
+      value: Phoenix, AZ
 
-  social_networks:
-    - network: LinkedIn
-      username: nvha
-    - network: Google Scholar
-      username: su5uMxAAAAAJ
+- title: Experience
+  type: time_table
+  contents:
+    - title: Network Systems Researcher & Laboratory Supervisor
+      institution: University of Science
+      year: 2021 - 2026
+      location: Ho Chi Minh City, Vietnam
+      description:
+        - Directed R&D initiatives within ICTLAB focusing on loss-masking transport frameworks, P4 data-plane telemetry, active queue management (AQM), adaptive SDN routing, and wireless sensor networks. Supervised 20+ researchers and secured over $100k in R&D funding.
 
-  address:
-    city: Phoenix
-    region: Arizona
-    countryCode: US
+    - title: Principal Postdoctoral Researcher & PI
+      institution: Kyushu Institute of Technology
+      year: 2018 - 2021
+      location: Fukuoka, Japan
+      description:
+        - Served as Principal Investigator (PI) for two JSPS KAKEN Grants-in-Aid (4.42M JPY). Engineered resilient TCP/NC transport frameworks and dynamic SDN routing control planes to mask channel losses and prevent timeout degradation.
 
-  sections:
-    Education:
-      - institution: Kyushu Institute of Technology
-        location: Fukuoka, Japan
-        url: https://www.kyutech.ac.jp/
-        area: Computer Science and Systems Engineering
-        studyType: Ph.D.
-        startDate: "2014"
-        endDate: "2017"
-        summary: "Dissertation: Studies on Improvement and Application of TCP with Network Coding in Lossy Networks."
+    - title: Associate Lecturer, Network Administrator & Faculty Registrar
+      institution: University of Science
+      year: 2009 - 2014
+      location: Ho Chi Minh City, Vietnam
+      description:
+        - Architected an FPGA-based 2x2 MIMO-OFDM SDM Transceiver (400 Mbps) using custom DSP pipelines. Managed departmental L2/L3 networking infrastructure and mentored student teams to 2nd place in Cisco NetRiders national competition.
 
-      - institution: University of Science
-        location: Ho Chi Minh City, Vietnam
-        url: https://www.hcmus.edu.vn/
-        area: Electronics and Telecommunications Engineering
-        studyType: M.S. & B.S.
-        startDate: "2005"
-        endDate: "2012"
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computer Science and Systems Engineering
+      institution: Kyushu Institute of Technology, Fukuoka, Japan
+      year: 2014 - 2017
+      description:
+        - "Dissertation: Studies on Improvement and Application of TCP with Network Coding in Lossy Networks."
 
-    Experience:
-      - name: University of Science
-        position: Network Systems Researcher & Laboratory Supervisor
-        location: Ho Chi Minh City, Vietnam
-        startDate: "2021-10-01"
-        endDate: "2026-04-30"
-        summary: Directed R&D initiatives within ICTLAB focusing on loss-masking transport frameworks, P4 data-plane telemetry, active queue management (AQM), adaptive SDN routing, and wireless sensor networks. Supervised 20+ researchers and secured over $100k in R&D funding.
+    - title: M.S. & B.S. in Electronics and Telecommunications Engineering
+      institution: University of Science, Ho Chi Minh City, Vietnam
+      year: 2005 - 2012
 
-      - name: Kyushu Institute of Technology
-        position: Principal Postdoctoral Researcher & PI
-        location: Fukuoka, Japan
-        startDate: "2018-04-01"
-        endDate: "2021-09-30"
-        summary: Served as Principal Investigator (PI) for two JSPS KAKEN Grants-in-Aid (4.42M JPY). Engineered resilient TCP/NC transport frameworks and dynamic SDN routing control planes to mask channel losses and prevent timeout degradation.
+- title: Projects
+  type: time_table
+  contents:
+    - title: High-Speed Hardware-in-the-Loop (HITL) Link Emulation
+      year: 2026 - Present
+      description:
+        - Architected a multi-vendor HITL emulation system bridging Intel Agilex 5 and Xilinx Kintex UltraScale+ FPGAs over HSMC-XTS and PCIe 3.0x4 interfaces. Designed an ultra-wide 1024-bit datapath operating at 156.25/312.5 MHz (up to 320 Gbps pipeline capacity) with PCIe DMA streaming.
 
-      - name: University of Science
-        position: Associate Lecturer, Network Administrator & Faculty Registrar
-        location: Ho Chi Minh City, Vietnam
-        startDate: "2009-09-01"
-        endDate: "2014-03-31"
-        summary: Architected an FPGA-based 2x2 MIMO-OFDM SDM Transceiver (400 Mbps) using custom DSP pipelines. Managed departmental L2/L3 networking infrastructure and mentored student teams to 2nd place in Cisco NetRiders national competition.
+    - title: Wireless System Emulation - Real-Time AWGN Hardware Generator
+      year: 2025 - 2026
+      description:
+        - Designed 512-bit wide AXI-Stream datapaths achieving 375MHz+ on Intel Agilex 7 and Xilinx FPGAs. Implemented APB interfaces for dynamic C/C++ SDN software control and automated TCL synthesis/build flows.
 
-    Projects:
-      - name: High-Speed Hardware-in-the-Loop (HITL) Link Emulation
-        startDate: "2026-04-01"
-        endDate: "Present"
-        summary: Architected a multi-vendor HITL emulation system bridging Intel Agilex 5 and Xilinx Kintex UltraScale+ FPGAs over HSMC-XTS and PCIe 3.0x4 interfaces. Designed an ultra-wide 1024-bit datapath operating at 156.25/312.5 MHz (up to 320 Gbps pipeline capacity) with PCIe DMA streaming.
+    - title: Programmable Data Plane (P4) for Telemetry & Loss Mitigation
+      year: 2024 - 2025
+      description:
+        - Architected a hop-by-hop multicast packet loss recovery scheme using P4 BMv2 switches and ns-3. Designed a custom 8-byte Control Header with a 40-bit sequence for microsecond-precision in-band telemetry tracking.
 
-      - name: Wireless System Emulation - Real-Time AWGN Hardware Generator
-        startDate: "2025-09-01"
-        endDate: "2026-02-28"
-        summary: Designed 512-bit wide AXI-Stream datapaths achieving 375MHz+ on Intel Agilex 7 and Xilinx FPGAs. Implemented APB interfaces for dynamic C/C++ SDN software control and automated TCL synthesis/build flows.
+    - title: Fault-Tolerant TDMA Framework for Constellation & Sensor Networks
+      year: 2023 - 2025
+      description:
+        - Integrated hop-by-hop FEC/Erasure Coding with TDMA scheduling via a 1-step Hill Climbing algorithm, maintaining >99% reliability under aggressive 50% link-loss conditions.
 
-      - name: Programmable Data Plane (P4) for Telemetry & Loss Mitigation
-        startDate: "2024-01-01"
-        endDate: "2025-01-31"
-        summary: Architected a hop-by-hop multicast packet loss recovery scheme using P4 BMv2 switches and ns-3. Designed a custom 8-byte Control Header with a 40-bit sequence for microsecond-precision in-band telemetry tracking.
+    - title: Self-Healing Dynamic Routing Protocol (SDN-FEDRP)
+      year: 2021
+      description:
+        - Engineered a dynamic RYU controller routing algorithm using DFS and fairness-governed OpenFlow reallocations, demonstrating a 7x load-balancing improvement over standard OSPF.
 
-      - name: Fault-Tolerant TDMA Framework for Constellation & Sensor Networks
-        startDate: "2023-10-01"
-        endDate: "2025-09-30"
-        summary: Integrated hop-by-hop FEC/Erasure Coding with TDMA scheduling via a 1-step Hill Climbing algorithm, maintaining >99% reliability under aggressive 50% link-loss conditions.
+    - title: TCP with Network Coding (TCP/NC) Transport Stack
+      year: 2017 - 2020
+      description:
+        - Developed C++ transport state machines with custom ACK generators (duplicate generation, ACK accumulation) that sustained 70 Mbps goodput under heavy bi-directional burst loss without timeouts.
 
-      - name: Self-Healing Dynamic Routing Protocol (SDN-FEDRP)
-        startDate: "2021-01-01"
-        endDate: "2021-12-31"
-        summary: Engineered a dynamic RYU controller routing algorithm using DFS and fairness-governed OpenFlow reallocations, demonstrating a 7x load-balancing improvement over standard OSPF.
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: International Conference Best Paper Awards (3-Time Recipient)
+      year: 2019, 2020, 2022
+      institution: International Conference Committees
+      description:
+        - Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research.
 
-      - name: TCP with Network Coding (TCP/NC) Transport Stack
-        startDate: "2017-03-01"
-        endDate: "2020-03-31"
-        summary: Developed C++ transport state machines with custom ACK generators (duplicate generation, ACK accumulation) that sustained 70 Mbps goodput under heavy bi-directional burst loss without timeouts.
+    - title: JSPS KAKEN Grants-in-Aid Principal Investigator
+      year: 2018 - 2021
+      institution: Japan Society for the Promotion of Science (JSPS)
+      description:
+        - Awarded 2 competitive research grants (Grant IDs 18H06467 & 20K19785) totaling 4.42 Million JPY for self-healing network protocols.
 
-    Awards:
-      - title: International Conference Best Paper Awards (3-Time Recipient)
-        date: "2022"
-        awarder: International Conference Committees
-        summary: Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research.
+    - title: Cisco Instructor Years of Service & Student Competition Award
+      year: 2013
+      institution: Cisco Networking Academy
+      description:
+        - Cisco Certified Academy Instructor (CCAI); mentored student team to 2nd place in the Cisco NetRiders National Competition.
 
-      - title: JSPS KAKEN Grants-in-Aid Principal Investigator
-        date: "2020"
-        awarder: Japan Society for the Promotion of Science (JSPS)
-        summary: Awarded 2 competitive research grants (Grant IDs 18H06467 & 20K19785) totaling 4.42 Million JPY for self-healing network protocols.
+- title: Certifications
+  type: list
+  contents:
+    - CCAI (Cisco Certified Academy Instructor) - CCNA & Security (2013)
+    - MCSE / MCSA (Microsoft Certified Systems Engineer) (2012)
 
-      - title: Cisco Instructor Years of Service & Student Competition Award
-        date: "2013"
-        awarder: Cisco Networking Academy
-        summary: Cisco Certified Academy Instructor (CCAI); mentored student team to 2nd place in the Cisco NetRiders National Competition.
+- title: Technical Skills
+  type: list
+  contents:
+    - "Hardware & RTL Design: SystemVerilog, Verilog, FPGA (Intel Agilex/Stratix, AMD Xilinx Kintex UltraScale+), Pre/Post-Silicon Validation, HW Emulation, 1024-bit / 512-bit AXI-Stream, PCIe 3.0, DMA, SerDes, Ethernet MAC/PHY, APB"
+    - "Network Protocols & Data Planes: P4 (BMv2 Switch), SDN / OpenFlow / RYU Controller, TCP/IP, UDP, TCP/NC, AQM, Loss Masking, In-Band Network Telemetry (INT)"
+    - "Software & Simulation: C/C++, Python, MATLAB, Simulink, ns-3, Mininet, TCL, Bash, Linux (Embedded/PetaLinux), Vivado, Quartus, ModelSim, Wireshark"
 
-    Certificates:
-      - name: CCAI (Cisco Certified Academy Instructor) - CCNA & Security
-        date: "2013-01-01"
-        issuer: Cisco Systems
-
-      - name: MCSE / MCSA (Microsoft Certified Systems Engineer)
-        date: "2012-01-01"
-        issuer: Microsoft
-
-    Skills:
-      - name: Hardware & Digital Logic Design (RTL)
-        level: Master
-        keywords: "SystemVerilog, Verilog, FPGA (Intel Agilex/Stratix, AMD Xilinx Kintex UltraScale+), Pre/Post-Silicon Validation, Hardware Emulation, HW/SW Co-Design, High-Speed Datapaths (1024-bit / 512-bit AXI-Stream), PCIe 3.0, DMA, SerDes, Ethernet MAC/PHY, APB"
-
-      - name: Network Protocols & Programmable Data Planes
-        level: Master
-        keywords: "P4 (BMv2 Switch), Software-Defined Networking (SDN / OpenFlow / RYU Controller), Transport Protocols (TCP/IP, UDP, TCP/NC), Active Queue Management (AQM), Loss Masking, Traffic Engineering, In-Band Network Telemetry (INT)"
-
-      - name: Software, Modeling & DSP Simulation
-        level: Master
-        keywords: "C/C++, Python, MATLAB, Simulink, ns-3 Network Simulator, Mininet, TCL Scripting, Bash, Linux (Embedded/PetaLinux), Vivado Block Designer, Quartus Platform Designer, ModelSim, Wireshark"
-
-    Languages:
-      - name: English
-        summary: "Professional Working Proficiency"
-      - name: Vietnamese
-        summary: "Native Speaker"
+- title: Languages
+  type: list
+  contents:
+    - "English: Professional Working Proficiency"
+    - "Vietnamese: Native Speaker"
