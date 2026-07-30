@@ -1,189 +1,136 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Ha Nguyen
+  label: Hardware & Network Systems Architect (Ph.D.)
+  email: nvha.dtvt@gmail.com
+  location: Phoenix, AZ
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Innovative Hardware Systems Architect & Senior Network Systems Architect with 3+ years of postdoctoral R&D and 5+ years of university research leadership. Proven expert in translating advanced transport protocols, Software-Defined Networking (SDN) control planes, and P4 data planes into high-performance physical silicon and RTL datapaths (SystemVerilog/Verilog) across Intel Agilex/Stratix and AMD Xilinx Kintex UltraScale+ architectures.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: nvha
+    - network: Google Scholar
+      username: su5uMxAAAAAJ
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    city: Phoenix
+    region: Arizona
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Kyushu Institute of Technology
+        location: Fukuoka, Japan
+        url: https://www.kyutech.ac.jp/
+        area: Computer Science and Systems Engineering
+        studyType: Ph.D.
+        start_date: 2014
+        end_date: 2017
+        summary: "Dissertation: Studies on Improvement and Application of TCP with Network Coding in Lossy Networks."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Science
+        location: Ho Chi Minh City, Vietnam
+        url: https://www.hcmus.edu.vn/
+        area: Electronics and Telecommunications Engineering
+        studyType: M.S. & B.S.
+        start_date: 2005
+        end_date: 2012
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: University of Science
+        position: Network Systems Researcher & Laboratory Supervisor
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2021-10-01
+        end_date: 2026-04-30
+        summary: Directed R&D initiatives within ICTLAB focusing on loss-masking transport frameworks, P4 data-plane telemetry, active queue management (AQM), adaptive SDN routing, and wireless sensor networks. Supervised 20+ researchers and secured over $100k in R&D funding.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: Kyushu Institute of Technology
+        position: Principal Postdoctoral Researcher & PI
+        location: Fukuoka, Japan
+        start_date: 2018-04-01
+        end_date: 2021-09-30
+        summary: Served as Principal Investigator (PI) for two JSPS KAKEN Grants-in-Aid (4.42M JPY). Engineered resilient TCP/NC transport frameworks and dynamic SDN routing control planes to mask channel losses and prevent timeout degradation.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - company: University of Science
+        position: Associate Lecturer, Network Administrator & Faculty Registrar
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2009-09-01
+        end_date: 2014-03-31
+        summary: Architected an FPGA-based 2x2 MIMO-OFDM SDM Transceiver (400 Mbps) using custom DSP pipelines. Managed departmental L2/L3 networking infrastructure and mentored student teams to 2nd place in Cisco NetRiders national competition.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: High-Speed Hardware-in-the-Loop (HITL) Link Emulation
+        start_date: 2026-04-01
+        end_date: Present
+        summary: Architected a multi-vendor HITL emulation system bridging Intel Agilex 5 and Xilinx Kintex UltraScale+ FPGAs over HSMC-XTS and PCIe 3.0x4 interfaces. Designed an ultra-wide 1024-bit datapath operating at 156.25/312.5 MHz (up to 320 Gbps pipeline capacity) with PCIe DMA streaming.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Wireless System Emulation - Real-Time AWGN Hardware Generator
+        start_date: 2025-09-01
+        end_date: 2026-02-28
+        summary: Designed 512-bit wide AXI-Stream datapaths achieving 375MHz+ on Intel Agilex 7 and Xilinx FPGAs. Implemented APB interfaces for dynamic C/C++ SDN software control and automated TCL synthesis/build flows.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Programmable Data Plane (P4) for Telemetry & Loss Mitigation
+        start_date: 2024-01-01
+        end_date: 2025-01-31
+        summary: Architected a hop-by-hop multicast packet loss recovery scheme using P4 BMv2 switches and ns-3. Designed a custom 8-byte Control Header with a 40-bit sequence for microsecond-precision in-band telemetry tracking.
+
+      - name: Fault-Tolerant TDMA Framework for Constellation & Sensor Networks
+        start_date: 2023-10-01
+        end_date: 2025-09-30
+        summary: Integrated hop-by-hop FEC/Erasure Coding with TDMA scheduling via a 1-step Hill Climbing algorithm, maintaining >99% reliability under aggressive 50% link-loss conditions.
+
+      - name: Self-Healing Dynamic Routing Protocol (SDN-FEDRP)
+        start_date: 2021-01-01
+        end_date: 2021-12-31
+        summary: Engineered a dynamic RYU controller routing algorithm using DFS and fairness-governed OpenFlow reallocations, demonstrating a 7x load-balancing improvement over standard OSPF.
+
+      - name: TCP with Network Coding (TCP/NC) Transport Stack
+        start_date: 2017-03-01
+        end_date: 2020-03-31
+        summary: Developed C++ transport state machines with custom ACK generators (duplicate generation, ACK accumulation) that sustained 70 Mbps goodput under heavy bi-directional burst loss without timeouts.
+
+    Awards:
+      - title: International Conference Best Paper Awards (3-Time Recipient)
+        date: 2022
+        awarder: International Conference Committees
+        summary: Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research.
+
+      - title: JSPS KAKEN Grants-in-Aid Principal Investigator
+        date: 2020
+        awarder: Japan Society for the Promotion of Science (JSPS)
+        summary: Awarded 2 competitive research grants (Grant IDs 18H06467 & 20K19785) totaling 4.42 Million JPY for self-healing network protocols.
+
+      - title: Cisco Instructor Years of Service & Student Competition Award
+        date: 2013
+        awarder: Cisco Networking Academy
+        summary: Cisco Certified Academy Instructor (CCAI); mentored student team to 2nd place in the Cisco NetRiders National Competition.
+
+    Certificates:
+      - name: CCAI (Cisco Certified Academy Instructor) - CCNA & Security
+        date: 2013-01-01
+        issuer: Cisco Systems
+
+      - name: MCSE / MCSA (Microsoft Certified Systems Engineer)
+        date: 2012-01-01
+        issuer: Microsoft
+
+    Skills:
+      - name: Hardware & Digital Logic Design (RTL)
+        level: Master
+        keywords: "SystemVerilog, Verilog, FPGA (Intel Agilex/Stratix, AMD Xilinx Kintex UltraScale+), Pre/Post-Silicon Validation, Hardware Emulation, HW/SW Co-Design, High-Speed Datapaths (1024-bit / 512-bit AXI-Stream), PCIe 3.0, DMA, SerDes, Ethernet MAC/PHY, APB"
+
+      - name: Network Protocols & Programmable Data Planes
+        level: Master
+        keywords: "P4 (BMv2 Switch), Software-Defined Networking (SDN / OpenFlow / RYU Controller), Transport Protocols (TCP/IP, UDP, TCP/NC), Active Queue Management (AQM), Loss Masking, Traffic Engineering, In-Band Network Telemetry (INT)"
+
+      - name: Software, Modeling & DSP Simulation
+        level: Master
+        keywords: "C/C++, Python, MATLAB, Simulink, ns-3 Network Simulator, Mininet, TCL Scripting, Bash, Linux (Embedded/PetaLinux), Vivado Block Designer, Quartus Platform Designer, ModelSim, Wireshark"
+
+    Languages:
+      - name: English
+        summary: "Professional Working Proficiency"
+      - name: Vietnamese
+        summary: "Native Speaker"
+      - name: Japanese
+        summary: "Basic Proficiency"
