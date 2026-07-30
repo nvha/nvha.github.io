@@ -160,14 +160,13 @@ cv:
         summary: Authored over 40 peer-reviewed international papers (including 7 journal articles), specializing in transport layer optimization (TCP/NC), P4 programmable data planes, congestion control, packet loss recovery, and wireless hardware emulation.
 
     Certificates:
-      - name: '<img src="https://cdn.simpleicons.org/cisco" style="height: 18px; margin-right: 6px; vertical-align: middle;"> CCAI (Cisco Certified Academy Instructor) - CCNA / Security'
+      - name: '<img src="/assets/img/certificates/Cisco_academy_logo.svg" style="height: 18px; margin-right: 6px; vertical-align: middle;"> CCAI - CCNA / Security'
         date: "2013-01-01"
         issuer: Cisco Networking Academy
 
-      - name: MCSE / MCSA
+      - name: '<img src="/assets/img/certificates/250px-Microsoft_icon.svg.webp" style="height: 18px; margin-right: 6px; vertical-align: middle;"> MCSE / MCSA'
         date: "2012-01-01"
         issuer: Microsoft
-        icon: fa-solid fa-certificate
 
     Education:
       - institution: Kyushu Institute of Technology
