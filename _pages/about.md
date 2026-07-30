@@ -4,25 +4,22 @@ title: about
 permalink: /
 subtitle: Hardware & Network Systems Architect | Ph.D.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <p>Phoenix, Arizona</p>
-    <p><a href="mailto:nvha.dtvt@gmail.com">nvha.dtvt@gmail.com</a></p>
-    <p><i>U.S. Permanent Resident</i></p>
+profile: false # Disables the profile image/card
 
-selected_papers: true # includes a list of papers marked as "selected={true}" in papers.bib
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes news items from the _news/ folder
+  enabled: true
   scrollable: true
   limit: 5
 
 latest_posts:
-  enabled: false # disabled to keep your site streamlined
+  enabled: false
+---
+
+**Phoenix, Arizona** &nbsp;|&nbsp; [nvha.dtvt@gmail.com](mailto:nvha.dtvt@gmail.com) &nbsp;|&nbsp; *U.S. Permanent Resident*
+
 ---
 
 I am a **Hardware Systems Architect, Senior Network Systems Architect, and Ph.D. Researcher** with 3+ years of dedicated postdoctoral R&D alongside 5+ years leading university research initiatives. My expertise spans translating advanced transport protocols and Software-Defined Networking (SDN) control planes into high-performance physical silicon, RTL datapaths, and programmable data planes.
