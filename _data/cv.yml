@@ -1,8 +1,8 @@
 cv:
-  name: Ha Nguyen, Ph.D.
+  name: Ha Nguyen, Ph.D. (US Person - Permanent Resident)
   label: Hardware Systems Architect & Senior Network Systems Architect
   email: nvha.dtvt@gmail.com
-  location: Phoenix, AZ (US Person - Permanent Resident)
+  location: Phoenix, AZ
   image: ""
   summary: Innovative Hardware Systems Architect, Senior Network Systems Architect & R&D Lead (Ph.D.) with 3 years of dedicated post-doctoral R&D alongside 5+ years of university research leadership. Proven expert in translating advanced transport protocols, Software-Defined Networking (SDN/OpenFlow) control planes, and networking logic into high-performance physical-layer silicon and programmable data planes. Proven record of protocol innovation with 40+ peer-reviewed publications across IEEE and IEICE, specializing in TCP/NC frameworks, custom ACK generation mechanics, tail-loss mitigation, active queue management (AQM), dynamic load balancing, and P4 programmable data planes. Expert in full-stack RTL design (SystemVerilog/Verilog), high-speed DSP pipelines, HW/SW co-design, pre-silicon validation, and discrete-event network simulation (ns-3, Mininet) across Intel Agilex, Stratix, and AMD Xilinx architectures.
 
@@ -13,7 +13,6 @@ cv:
       username: su5uMxAAAAAJ
 
   address:
-    street: ""
     city: Phoenix
     region: Arizona
     postalCode: ""
