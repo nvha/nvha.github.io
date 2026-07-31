@@ -130,7 +130,7 @@ cv:
           - "Eliminated tail loss and excessive redundancy bandwidth waste in low-latency networks."
   
     Awards:
-      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (B-Type)'
+      - title: '<img src="https://nvha.github.io/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (B-Type)'
         awarder: "Vietnam National University"
         date: "2023"
         summary: "Principal Investigator ($26,000 USD, Feb 2023 – Present). Topic: Architecture and implementation of reliable and high-speed data transfer model in edge clouds for future smart cities."
