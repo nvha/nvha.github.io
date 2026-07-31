@@ -2,7 +2,7 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 
-cv_pdf: /assets/pdf/CV_Nguyen_Viet_Ha.pdf # path to your CV PDF file saved in assets/pdf/
+cv_pdf: /assets/pdf/CV_Ha-Nguyen_Sum.pdf # path to your CV PDF file saved in assets/pdf/
 email: nvha.dtvt@gmail.com # your email address
 
 # github_username: nvha
