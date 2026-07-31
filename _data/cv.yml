@@ -138,26 +138,75 @@ cv:
         summary: Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research.
         
     Awards:
-      - title: International Conference Best Paper Awards (3-Time Recipient)
-        authors:
-          - International Conference Committees
+      - title: "Vietnam National University Research Grant (B-Type)"
+        awarder: "Vietnam National University"
+        date: "2023 - Present"
+        summary: "Principal Investigator ($26,000 USD). Topic: Architecture and implementation of reliable and high-speed data transfer model in edge clouds for future smart cities."
+
+      - title: "ITR VN Industry-Academia R&D Grant"
+        awarder: "ITR VN Corporation"
+        date: "2022 - 2023"
+        summary: "Co-Investigator ($45,000 USD). Topic: Smart, Reliable, Low-Power, and Compact All-in-One Health Indicator Sensor."
+
+      - title: "Best Paper Award"
+        awarder: "8th IEEE Information Technology International Seminar (ITIS-2022)"
         date: "2022"
-        awarder: International Conference Committees
-        summary: Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research.
+        summary: "Awarded for outstanding research presentation in loss-masking transport protocol architectures."
 
-      - title: JSPS KAKEN Grants-in-Aid Principal Investigator
-        authors:
-          - Japan Society for the Promotion of Science (JSPS)
-        date: "2020"
-        awarder: Japan Society for the Promotion of Science (JSPS)
-        summary: Awarded 2 competitive research grants (Grant IDs 18H06467 & 20K19785) totaling 4.42 Million JPY for self-healing network protocols.
+      - title: "Outstanding Paper Award"
+        awarder: "22nd International Conference on Advanced Communications Technology (ICACT)"
+        date: "2022"
+        summary: "Recognized for high-impact contributions to advanced communication networks and protocol design."
 
-      - title: Cisco Instructor Years of Service Award
-        authors:
-          - Cisco Systems
-        date: "2013"
-        awarder: Cisco Systems
-        summary: Recognized for lecturing excellence and mentored student team to 2nd Place in Cisco NetRiders National Student Competition.
+      - title: "VNUHCM-University of Science Research Grant"
+        awarder: "VNUHCM - University of Science"
+        date: "2022 - 2023"
+        summary: "Principal Investigator. Topic: Implementation of fast and reliable IoT data sharing in edge clouds for future smart cities."
+
+      - title: "Vietnam National University Research Grant (C-Type)"
+        awarder: "Vietnam National University"
+        date: "2022 - 2023"
+        summary: "Co-Investigator. Topic: Development of Industrial Wireless LAN with Low Latency and High-Accuracy Time Synchronization for Industry 5.0."
+
+      - title: "VNUHCM Industrial Wireless Systems Grant"
+        awarder: "VNUHCM - University of Science"
+        date: "2022 - 2023"
+        summary: "Co-Investigator. Topic: Research on Industrial Wireless LAN systems with high transmission rates for Industry 5.0."
+
+      - title: "JSPS KAKEN Grant-in-Aid for Early-Career Scientists"
+        awarder: "Japan Society for the Promotion of Science (JSPS)"
+        date: "2020 - 2022"
+        summary: "Principal Investigator ($20,000 USD / Grant ID 20K19785). Topic: Joint control of data storing, routing, and coding on edge-clouds for reliable IoT."
+
+      - title: "Best Paper Award"
+        awarder: "International Conference on Emerging Internet, Data and Web Technologies (EIDWT-2019)"
+        date: "2019"
+        summary: "Awarded for research in emerging internet data transport architectures."
+
+      - title: "JSPS KAKEN Grant-in-Aid for Research Activity Start-up"
+        awarder: "Japan Society for the Promotion of Science (JSPS)"
+        date: "2018 - 2020"
+        summary: "Principal Investigator ($20,000 USD / Grant ID 18H06467). Topic: Reliable data transfer in diverse and dynamic IoT environments using TCP with Network Coding."
+
+      - title: "Vietnam National University Research Grant (C-Type)"
+        awarder: "Vietnam National University"
+        date: "2018 - 2020"
+        summary: "Principal Investigator. Topic: Study and application of network coding for improving quality of data transfer in lossy networks."
+
+      - title: "KDDI Research Foundation Scholarship"
+        awarder: "KDDI Foundation, Japan"
+        date: "2016"
+        summary: "Prestigious national scholarship awarded to outstanding doctoral researchers in telecommunications (1 of 10 recipients across Japan)."
+
+      - title: "Cisco Instructor Years of Service Award"
+        awarder: "Cisco Networking Academy"
+        date: "2014"
+        summary: "Recognized for active participation, technical instruction, and service in the Cisco Networking Academy program."
+
+      - title: "Merit Award for Excellence Lecturer"
+        awarder: "Vietnam National University & University of Science"
+        date: "2012 - 2013"
+        summary: "Awarded for outstanding lecturing performance and academic R&D leadership."
 
     Publications:
       - title: "Over 40 Peer-Reviewed International Publications in Transport Protocols & Network Systems"
