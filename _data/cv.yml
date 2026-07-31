@@ -265,7 +265,7 @@ cv:
           - "Dissertation: Studies on improvement and application of TCP with network coding in lossy networks"
     
       - institution: "University of Science, VNU-HCM"
-        location: "Ho Chi Minh City, Vietnam"
+        location: "Ho Chi Minh City, VN"
         url: "https://www.hcmus.edu.vn/"
         area: "Electronics and Telecommunications Engineering"
         studyType: "MS"
@@ -277,7 +277,7 @@ cv:
           - "Thesis: FPGA implementation of MIMO-OFDM SDM system"
     
       - institution: "University of Science, VNU-HCM"
-        location: "Ho Chi Minh City, Vietnam"
+        location: "Ho Chi Minh City, VN"
         url: "https://www.hcmus.edu.vn/"
         area: "Electronics and Telecommunications Engineering"
         studyType: "BS"
