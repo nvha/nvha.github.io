@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:Hardware Systems Architect & Senior Network Systems Architect | Ph.D.
+subtitle: Hardware Systems Architect & Senior Network Systems Architect | Ph.D.
 
 profile: false # Disables the profile image/card
 
