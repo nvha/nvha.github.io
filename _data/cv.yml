@@ -130,72 +130,72 @@ cv:
           - "Eliminated tail loss and excessive redundancy bandwidth waste in low-latency networks."
   
     Awards:
-      - title: "Vietnam National University Research Grant (B-Type)"
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (B-Type)'
         awarder: "Vietnam National University"
         date: "2023"
-        summary: "Principal Investigator ($26,000 USD, Feb 2023 – Feb 2026). Topic: Architecture and implementation of reliable and high-speed data transfer model in edge clouds for future smart cities."
+        summary: "Principal Investigator ($26,000 USD, Feb 2023 – Present). Topic: Architecture and implementation of reliable and high-speed data transfer model in edge clouds for future smart cities."
 
-      - title: "ITR VN Industry-Academia R&D Grant"
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> ITR VN Industry-Academia R&D Grant'
         awarder: "ITR VN Corporation"
         date: "2022"
         summary: "Co-Investigator ($45,000 USD, Sep 2022 – Sep 2023). Topic: Smart, Reliable, Low-Power, and Compact All-in-One Health Indicator Sensor."
 
-      - title: "Best Paper Award"
+      - title: '<img src="/assets/img/awards/award_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Best Paper Award'
         awarder: "8th IEEE Information Technology International Seminar (ITIS-2022)"
         date: "2022"
         summary: "Awarded for outstanding research presentation in loss-masking transport protocol architectures."
 
-      - title: "Outstanding Paper Award"
+      - title: '<img src="/assets/img/awards/award_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Outstanding Paper Award'
         awarder: "22nd International Conference on Advanced Communications Technology (ICACT)"
         date: "2022"
         summary: "Recognized for high-impact contributions to advanced communication networks and protocol design."
 
-      - title: "VNUHCM-University of Science Research Grant"
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> VNUHCM-University of Science Research Grant'
         awarder: "VNUHCM - University of Science"
         date: "2022"
         summary: "Principal Investigator (Apr 2022 – Jan 2023). Topic: Implementation of fast and reliable IoT data sharing in edge clouds for future smart cities."
 
-      - title: "Vietnam National University Research Grant (C-Type)"
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (C-Type)'
         awarder: "Vietnam National University"
         date: "2022"
         summary: "Co-Investigator (Apr 2022 – Jul 2023). Topic: Development of Industrial Wireless LAN with Low Latency and High-Accuracy Time Synchronization for Industry 5.0."
 
-      - title: "VNUHCM Industrial Wireless Systems Grant"
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> VNUHCM Industrial Wireless Systems Grant'
         awarder: "VNUHCM - University of Science"
         date: "2022"
         summary: "Co-Investigator (Apr 2022 – Jan 2023). Topic: Research on Industrial Wireless LAN systems with high transmission rates for Industry 5.0."
 
-      - title: "JSPS KAKEN Grant-in-Aid for Early-Career Scientists"
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> JSPS KAKEN Grant-in-Aid for Early-Career Scientists'
         awarder: "Japan Society for the Promotion of Science (JSPS)"
         date: "2020"
         summary: "Principal Investigator ($20,000 USD / Grant ID 20K19785, Apr 2020 – Mar 2022). Topic: Joint control of data storing, routing, and coding on edge-clouds for reliable IoT."
 
-      - title: "Best Paper Award"
+      - title: '<img src="/assets/img/awards/award_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Best Paper Award'
         awarder: "International Conference on Emerging Internet, Data and Web Technologies (EIDWT-2019)"
         date: "2019"
         summary: "Awarded for research in emerging internet data transport architectures."
 
-      - title: "JSPS KAKEN Grant-in-Aid for Research Activity Start-up"
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> JSPS KAKEN Grant-in-Aid for Research Activity Start-up'
         awarder: "Japan Society for the Promotion of Science (JSPS)"
         date: "2018"
         summary: "Principal Investigator ($20,000 USD / Grant ID 18H06467, Apr 2018 – Mar 2020). Topic: Reliable data transfer in diverse and dynamic IoT environments using TCP with Network Coding."
 
-      - title: "Vietnam National University Research Grant (C-Type)"
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (C-Type)'
         awarder: "Vietnam National University"
         date: "2018"
         summary: "Principal Investigator (Apr 2018 – Mar 2020). Topic: Study and application of network coding for improving quality of data transfer in lossy networks."
 
-      - title: "KDDI Research Foundation Scholarship"
+      - title: '<img src="/assets/img/awards/award_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> KDDI Research Foundation Scholarship'
         awarder: "KDDI Foundation, Japan"
         date: "2016"
         summary: "Prestigious national scholarship awarded to outstanding doctoral researchers in telecommunications (1 of 10 recipients across Japan)."
 
-      - title: "Cisco Instructor Years of Service Award"
+      - title: '<img src="/assets/img/awards/award_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Cisco Instructor Years of Service Award'
         awarder: "Cisco Networking Academy"
         date: "2014"
         summary: "Recognized for active participation, technical instruction, and service in the Cisco Networking Academy program."
 
-      - title: "Merit Award for Excellence Lecturer"
+      - title: '<img src="/assets/img/awards/award_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Merit Award for Excellence Lecturer'
         awarder: "Vietnam National University & University of Science"
         date: "2013"
         summary: "Awarded for outstanding lecturing performance and academic R&D leadership (Recipient in 2012 and 2013)."
