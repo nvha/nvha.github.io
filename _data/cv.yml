@@ -128,15 +128,7 @@ cv:
         highlights:
           - "Sustained high goodput (70% of link/70 Mbps) under heavy bi-directional burst conditions while preventing TCP timeouts."
           - "Eliminated tail loss and excessive redundancy bandwidth waste in low-latency networks."
-
-    Grants:
-      - title: International Conference Best Paper Awards (3-Time Recipient)
-        authors:
-          - International Conference Committees
-        date: "2022"
-        awarder: International Conference Committees
-        summary: Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research.
-        
+  
     Awards:
       - title: "Vietnam National University Research Grant (B-Type)"
         awarder: "Vietnam National University"
@@ -256,19 +248,30 @@ cv:
         date: "2008-09-01"
         issuer: "Microsoft"
 
-    Education:
-      - institution: Kyushu Institute of Technology
-        location: Fukuoka, Japan
-        area: Computer Science and Systems Engineering
-        studyType: Ph.D.
+Education:
+      - institution: "Kyushu Institute of Technology"
+        degree: "Ph.D."
+        area: "Computer Science and Systems Engineering"
         start_date: "2014-04"
         end_date: "2017-03"
+        location: "Fukuoka, Japan"
         highlights:
-          - "Dissertation: Studies on Improvement and Application of TCP with Network Coding in Lossy Networks."
+          - "Dissertation: Studies on improvement and application of TCP with network coding in lossy networks"
 
-      - institution: University of Science
-        location: Ho Chi Minh City, VN
-        area: Electronics and Telecommunications Engineering
-        studyType: M.S. & B.S.
-        start_date: "2005-09"
+      - institution: "University of Science, VNU-HCM"
+        degree: "M.S."
+        area: "Electronics and Telecommunications Engineering"
+        start_date: "2010-09"
         end_date: "2012-09"
+        location: "Ho Chi Minh City, VN"
+        highlights:
+          - "Thesis: FPGA implementation of MIMO-OFDM SDM system"
+
+      - institution: "University of Science, VNU-HCM"
+        degree: "B.S."
+        area: "Electronics and Telecommunications Engineering"
+        start_date: "2005-09"
+        end_date: "2009-09"
+        location: "Ho Chi Minh City, VN"
+        highlights:
+          - "Thesis: Research WiMAX technology and implement channel coding on hardware"
