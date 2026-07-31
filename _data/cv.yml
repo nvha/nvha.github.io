@@ -217,13 +217,44 @@ cv:
         summary: Authored over 40 peer-reviewed international papers (including 7 journal articles), specializing in transport layer optimization (TCP/NC), P4 programmable data planes, congestion control, packet loss recovery, and wireless hardware emulation.
 
     Certificates:
-      - name: '<img src="/assets/img/certificates/Cisco_academy_logo.svg" style="height: 18px; margin-right: 6px; vertical-align: middle;"> CCAI - CCNA / Security'
-        date: "2013-01-01"
-        issuer: Cisco Networking Academy
+      - name: "Master Teacher Training Program"
+        date: "2017-12-01"
+        issuer: "Arizona State University"
+        icon: "fa-solid fa-graduation-cap"
 
-      - name: '<img src="/assets/img/certificates/250px-Microsoft_icon.svg.webp" style="height: 18px; margin-right: 6px; vertical-align: middle;"> MCSE / MCSA'
-        date: "2012-01-01"
-        issuer: Microsoft
+      - name: "AUN-QA Quality Assessment at Program Level"
+        date: "2017-04-01"
+        issuer: "ASEAN University Network / Vietnam National University"
+        icon: "fa-solid fa-award"
+
+      - name: "CDIO Framework for Re-Thinking Engineering Education"
+        date: "2013-07-01"
+        issuer: "Singapore Polytechnic International & VNUHCM-University of Science"
+        icon: "fa-solid fa-certificate"
+
+      - name: '<img src="/assets/img/certificates/Cisco_academy_logo.svg" style="height: 18px; margin-right: 6px; vertical-align: middle;"> CCNA Security (Cisco Certified Network Associate)'
+        date: "2013-07-01"
+        issuer: "Cisco Systems"
+
+      - name: '<img src="/assets/img/certificates/Cisco_academy_logo.svg" style="height: 18px; margin-right: 6px; vertical-align: middle;"> CCAI for CCNA Security (Cisco Certified Academy Instructor)'
+        date: "2013-01-01"
+        issuer: "Cisco Networking Academy"
+
+      - name: '<img src="/assets/img/certificates/Cisco_academy_logo.svg" style="height: 18px; margin-right: 6px; vertical-align: middle;"> CCAI for CCNA (Cisco Certified Academy Instructor)'
+        date: "2010-07-01"
+        issuer: "Cisco Networking Academy"
+
+      - name: '<img src="/assets/img/certificates/Cisco_academy_logo.svg" style="height: 18px; margin-right: 6px; vertical-align: middle;"> CCNA (Cisco Certified Network Associate)'
+        date: "2010-07-01"
+        issuer: "Cisco Systems"
+
+      - name: '<img src="/assets/img/certificates/250px-Microsoft_icon.svg.webp" style="height: 18px; margin-right: 6px; vertical-align: middle;"> MCSE (Microsoft Certified Systems Engineer)'
+        date: "2008-12-01"
+        issuer: "Microsoft / Nhat Nghe Education"
+
+      - name: '<img src="/assets/img/certificates/250px-Microsoft_icon.svg.webp" style="height: 18px; margin-right: 6px; vertical-align: middle;"> MCSA (Microsoft Certified Systems Administrator)'
+        date: "2008-09-01"
+        issuer: "Microsoft"
 
     Education:
       - institution: Kyushu Institute of Technology
