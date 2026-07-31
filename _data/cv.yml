@@ -140,13 +140,13 @@ cv:
     Awards:
       - title: "Vietnam National University Research Grant (B-Type)"
         awarder: "Vietnam National University"
-        date: "2023 - Present"
-        summary: "Principal Investigator ($26,000 USD). Topic: Architecture and implementation of reliable and high-speed data transfer model in edge clouds for future smart cities."
+        date: "2023"
+        summary: "Principal Investigator ($26,000 USD, Feb 2023 – Feb 2026). Topic: Architecture and implementation of reliable and high-speed data transfer model in edge clouds for future smart cities."
 
       - title: "ITR VN Industry-Academia R&D Grant"
         awarder: "ITR VN Corporation"
-        date: "2022 - 2023"
-        summary: "Co-Investigator ($45,000 USD). Topic: Smart, Reliable, Low-Power, and Compact All-in-One Health Indicator Sensor."
+        date: "2022"
+        summary: "Co-Investigator ($45,000 USD, Sep 2022 – Sep 2023). Topic: Smart, Reliable, Low-Power, and Compact All-in-One Health Indicator Sensor."
 
       - title: "Best Paper Award"
         awarder: "8th IEEE Information Technology International Seminar (ITIS-2022)"
@@ -160,23 +160,23 @@ cv:
 
       - title: "VNUHCM-University of Science Research Grant"
         awarder: "VNUHCM - University of Science"
-        date: "2022 - 2023"
-        summary: "Principal Investigator. Topic: Implementation of fast and reliable IoT data sharing in edge clouds for future smart cities."
+        date: "2022"
+        summary: "Principal Investigator (Apr 2022 – Jan 2023). Topic: Implementation of fast and reliable IoT data sharing in edge clouds for future smart cities."
 
       - title: "Vietnam National University Research Grant (C-Type)"
         awarder: "Vietnam National University"
-        date: "2022 - 2023"
-        summary: "Co-Investigator. Topic: Development of Industrial Wireless LAN with Low Latency and High-Accuracy Time Synchronization for Industry 5.0."
+        date: "2022"
+        summary: "Co-Investigator (Apr 2022 – Jul 2023). Topic: Development of Industrial Wireless LAN with Low Latency and High-Accuracy Time Synchronization for Industry 5.0."
 
       - title: "VNUHCM Industrial Wireless Systems Grant"
         awarder: "VNUHCM - University of Science"
-        date: "2022 - 2023"
-        summary: "Co-Investigator. Topic: Research on Industrial Wireless LAN systems with high transmission rates for Industry 5.0."
+        date: "2022"
+        summary: "Co-Investigator (Apr 2022 – Jan 2023). Topic: Research on Industrial Wireless LAN systems with high transmission rates for Industry 5.0."
 
       - title: "JSPS KAKEN Grant-in-Aid for Early-Career Scientists"
         awarder: "Japan Society for the Promotion of Science (JSPS)"
-        date: "2020 - 2022"
-        summary: "Principal Investigator ($20,000 USD / Grant ID 20K19785). Topic: Joint control of data storing, routing, and coding on edge-clouds for reliable IoT."
+        date: "2020"
+        summary: "Principal Investigator ($20,000 USD / Grant ID 20K19785, Apr 2020 – Mar 2022). Topic: Joint control of data storing, routing, and coding on edge-clouds for reliable IoT."
 
       - title: "Best Paper Award"
         awarder: "International Conference on Emerging Internet, Data and Web Technologies (EIDWT-2019)"
@@ -185,13 +185,13 @@ cv:
 
       - title: "JSPS KAKEN Grant-in-Aid for Research Activity Start-up"
         awarder: "Japan Society for the Promotion of Science (JSPS)"
-        date: "2018 - 2020"
-        summary: "Principal Investigator ($20,000 USD / Grant ID 18H06467). Topic: Reliable data transfer in diverse and dynamic IoT environments using TCP with Network Coding."
+        date: "2018"
+        summary: "Principal Investigator ($20,000 USD / Grant ID 18H06467, Apr 2018 – Mar 2020). Topic: Reliable data transfer in diverse and dynamic IoT environments using TCP with Network Coding."
 
       - title: "Vietnam National University Research Grant (C-Type)"
         awarder: "Vietnam National University"
-        date: "2018 - 2020"
-        summary: "Principal Investigator. Topic: Study and application of network coding for improving quality of data transfer in lossy networks."
+        date: "2018"
+        summary: "Principal Investigator (Apr 2018 – Mar 2020). Topic: Study and application of network coding for improving quality of data transfer in lossy networks."
 
       - title: "KDDI Research Foundation Scholarship"
         awarder: "KDDI Foundation, Japan"
@@ -205,8 +205,8 @@ cv:
 
       - title: "Merit Award for Excellence Lecturer"
         awarder: "Vietnam National University & University of Science"
-        date: "2012 - 2013"
-        summary: "Awarded for outstanding lecturing performance and academic R&D leadership."
+        date: "2013"
+        summary: "Awarded for outstanding lecturing performance and academic R&D leadership (Recipient in 2012 and 2013)."
 
     Publications:
       - title: "Over 40 Peer-Reviewed International Publications in Transport Protocols & Network Systems"
