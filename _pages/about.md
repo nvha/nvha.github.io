@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Hardware & Network Systems Architect | Ph.D.
+subtitle:Hardware Systems Architect & Senior Network Systems Architect | Ph.D.
 
 profile: false # Disables the profile image/card
 
@@ -22,21 +22,46 @@ latest_posts:
 
 ---
 
-I am a **Hardware Systems Architect, Senior Network Systems Architect, and Ph.D. Researcher** with 3+ years of dedicated postdoctoral R&D alongside 5+ years leading university research initiatives. My expertise spans translating advanced transport protocols and Software-Defined Networking (SDN) control planes into high-performance physical silicon, RTL datapaths, and programmable data planes.
+I am a **Hardware Systems Architect and Senior Network Systems Architect** with 8+ years of combined postdoctoral R&D and academic research leadership. My core strength lies in full-stack hardware-software co-design: translating complex transport protocols, Software-Defined Networking (SDN) control planes, and scale-out networking logic into high-performance RTL silicon, ultra-wide datapaths, and programmable data planes.
 
-My work spans full-stack RTL design (SystemVerilog/Verilog), high-speed DSP pipelines, HW/SW co-design, and pre-silicon validation across **Intel Agilex/Stratix** and **AMD Xilinx Kintex UltraScale+** architectures, complemented by discrete-event network modeling in **ns-3** and **Mininet**.
-
----
-
-### Key Specializations
-
-* **Hardware-Software Co-Design & High-Speed Datapaths:** Architecting ultra-wide 1024-bit packet processing pipelines (up to 320 Gbps capacity), 512-bit AXI-Stream interfaces (operating at 375MHz+), host-to-FPGA PCIe 3.0x4 DMA streaming, and multi-vendor Hardware-in-the-Loop (HITL) link emulation setups.
-* **Programmable Data Planes (P4) & Telemetry:** Designing P4 in-band telemetry stacks (BMv2 switch / ns-3) featuring custom 8-byte control headers (`Success_Check`) for microsecond-precision jitter/queue tracking and localized fast-reroute packet loss recovery.
-* **Resilient Transport Protocols & Traffic Engineering:** Engineering Network Coding-assisted transport stacks (TCP/NC) with proactive loss masking, active queue management (AQM), and self-healing SDN dynamic routing protocols (SDN-FEDRP) yielding a 7x load-balancing improvement over standard OSPF.
-* **DSP Pipelines & System Emulation:** Designing multi-rate real-time AWGN hardware generators, 4×4 MU-MIMO channel emulators, and 2×2 MIMO-OFDM baseband transceivers.
+Whether architecting 320 Gbps FPGA pipelines, designing P4 in-band telemetry stacks, or modeling low-latency transport protocols in ns-3, I bridge the gap between physical silicon acceleration and high-speed network systems architecture.
 
 ---
 
-### Academic & Research Leadership
+### Key Metrics at a Glance
 
-I hold a Ph.D. in Computer Science & Systems Engineering from **Kyushu Institute of Technology** (Japan), where I served as Principal Investigator (PI) for two JSPS KAKEN research grants. I also co-founded and supervised R&D operations at the **ICTLAB** at the **University of Science** (Vietnam), securing over $100,000 in competitive funding, authoring **40+ peer-reviewed international publications** (IEEE/IEICE/Scopus), and earning 3 international Best Paper Awards.
+* **8+ Years** of Advanced R&D in Full-Stack Hardware & Network Systems Architecture
+* **320 Gbps** Internal FPGA Pipeline Capacity (1024-bit Datapath @ 312.5 MHz)
+* **7x SDN Load Balancing** over OSPF & **36% Latency Reduction** via P4 Telemetry
+* **>99% Network Reliability** Sustained Under Severe 50% Link-Loss Conditions
+* **40+ Peer-Reviewed Publications** (IEEE / IEICE / Scopus) & **$100,000+** in PI Research Grants
+
+---
+
+### Core Engineering Pillars
+
+#### 1. Hardware Architecture & FPGA Acceleration
+* **Full-Stack RTL & Logic Design:** SystemVerilog/Verilog, high-speed DSP pipelines, 512-bit wide AXI-Stream interfaces (operating at 375MHz+), APB interfaces, and pre/post-silicon validation.
+* **FPGA Datapaths & Offloading:** Ultra-wide 1024-bit packet processing pipelines, host-to-FPGA PCIe 3.0x4 DMA streaming, and custom protocol offload engines.
+* **Silicon Platforms & Emulation:** Heterogeneous Hardware-in-the-Loop (HITL) multi-board link emulation, real-time AWGN hardware generators (sweeping SNR from −30 dB to 45 dB), 4×4 MU-MIMO channel emulators, and 2×2 MIMO-OFDM baseband transceivers across **Intel Agilex 5 (DE25)**, **Stratix IV**, and **AMD Xilinx Kintex UltraScale+ (KU5P)** FPGAs with **TI LMK62E2** SerDes reference clocking.
+
+#### 2. Network Systems, Protocols & SDN
+* **High-Speed Transport Protocols:** Loss-masking transport frameworks (TCP/NC), custom ACK accumulation state machines, proactive FEC, tail-latency elimination, and RoCE/RDMA acceleration.
+* **Programmable Data Planes (P4) & Observability:** P4 in-band telemetry (INT) in ns-3 and BMv2 with custom 8-byte control headers (`Success_Check`) for microsecond-precision queue/jitter tracking and localized recirculation port fast-reroute packet recovery.
+* **SDN & Control Planes:** Self-healing dynamic routing protocols (SDN-FEDRP on RYU OpenFlow controllers) yielding a 7x load-balancing improvement over standard OSPF, paired with discrete-event network modeling in **ns-3** and **Mininet**.
+
+---
+
+### Research Leadership & Academic Background
+
+I earned my Ph.D. in Computer Science & Systems Engineering from **Kyushu Institute of Technology** (Japan), serving as Principal Investigator (PI) for two competitive JSPS KAKEN research grants focusing on resilient protocol stacks and IoT reliability. 
+
+As Laboratory Supervisor and Co-founder of the **ICTLAB** at the **University of Science** (Vietnam), I directed 20+ graduate and undergraduate researchers, managed multi-year government and industry R&D grants ($100,000+ funded), and authored **40+ peer-reviewed international publications** earning 3 international Best Paper Awards. 
+
+Additionally, I have designed and delivered specialized graduate-level lectures on SDN architectures, OpenFlow control mechanisms, and Ryu/Mininet network topologies for the **City College of New York (CCNY)**, and hold formal pedagogy and curriculum accreditation certifications (ASU Master Teacher Program, CDIO Framework, and AUN-QA Assessor).
+
+---
+
+'<img src="/assets/img/skills/cpp_logo.webp" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/sv_logo.jpg" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/python_logo.webp" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/ns-3_logo.png" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/packettracer_logo.webp" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/wireshark_logo.webp" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/Linux_logo.png" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/Quartus_logo.png" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/vivado_logo.png" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/Matlab_logo.png" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/P4_logo.webp" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/openflow_icon.webp" style="height: 32px; vertical-align: middle; margin-right: 8px;"><img src="/assets/img/skills/ryu_logo.png" style="height: 32px; vertical-align: middle; margin-right: 8px;">'
+
+---
