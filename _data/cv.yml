@@ -1,11 +1,11 @@
 cv:
   name: Ha Nguyen, Ph.D. (US Person - Permanent Resident)
-  label: Hardware Systems Architect & Senior Network Systems Architect
+  label: Senior Architect | Hardware (FPGA/RTL) & Network Systems
   email: nvha.dtvt@gmail.com
   location: Phoenix, AZ
   image: ""
-  summary: Innovative Hardware Systems Architect, Senior Network Systems Architect & R&D Lead (Ph.D.) with 3 years of dedicated post-doctoral R&D alongside 5+ years of university research leadership. Proven expert in translating advanced transport protocols, Software-Defined Networking (SDN/OpenFlow) control planes, and networking logic into high-performance physical-layer silicon and programmable data planes. Proven record of protocol innovation with 40+ peer-reviewed publications across IEEE and IEICE, specializing in TCP/NC frameworks, custom ACK generation mechanics, tail-loss mitigation, active queue management (AQM), dynamic load balancing, and P4 programmable data planes. Expert in full-stack RTL design (SystemVerilog/Verilog), high-speed DSP pipelines, HW/SW co-design, pre-silicon validation, and discrete-event network simulation (ns-3, Mininet) across Intel Agilex, Stratix, and AMD Xilinx architectures.
-
+  summary: Hardware Systems Architect and Senior Network Systems Architect (Ph.D.) with 3+ years of post-doctoral R&D and 5+ years of university research leadership bridging high-throughput FPGA hardware acceleration with scale-out network protocol design. On the hardware side, brings deep expertise in full-stack RTL design (SystemVerilog/Verilog), high-speed DSP pipelines, ultra-wide 1024-bit/512-bit AXI-Stream datapaths, PCIe 3.0 DMA offload engines, and multi-vendor FPGA prototyping across Intel Agilex and AMD Xilinx architectures. On the networking side, specializes in high-speed transport protocol optimization (TCP/NC, RoCE/RDMA), Software-Defined Networking (SDN/OpenFlow), P4 in-band telemetry, active queue management (AQM), and discrete-event simulation in ns-3 and Mininet. Backed by 40+ peer-reviewed publications (IEEE/IEICE) and over $100,000 in R&D grants, excels at hardware-software co-design to translate complex network control logic into low-latency physical silicon and programmable data planes.
+  
   social_networks:
     - network: LinkedIn
       username: nvha
@@ -43,7 +43,7 @@ cv:
     Experience:
       - company: University of Science
         position: Network Systems Researcher & Laboratory Supervisor
-        location: Ho Chi Minh City, Vietnam
+        location: Ho Chi Minh City, VN
         start_date: "2021-10"
         end_date: "2026-04"
         summary: Directed major R&D initiatives within ICTLAB, supervised 20+ graduate/undergraduate researchers, co-founded ICTLAB, and secured over $100,000 in competitive funding.
@@ -67,7 +67,7 @@ cv:
 
       - company: University of Science
         position: Associate Lecturer, Network Administrator & Faculty Registrar
-        location: Ho Chi Minh City, Vietnam
+        location: Ho Chi Minh City, VN
         start_date: "2009-09"
         end_date: "2014-03"
         summary: Conducted physical-layer communication research, administered departmental L2/L3 network infrastructure, and served as Faculty Registrar.
@@ -129,6 +129,14 @@ cv:
           - "Sustained high goodput (70% of link/70 Mbps) under heavy bi-directional burst conditions while preventing TCP timeouts."
           - "Eliminated tail loss and excessive redundancy bandwidth waste in low-latency networks."
 
+    Grants:
+      - title: International Conference Best Paper Awards (3-Time Recipient)
+        authors:
+          - International Conference Committees
+        date: "2022"
+        awarder: International Conference Committees
+        summary: Recipient of 3 international conference Best Paper Awards (2019, 2020, 2022) for protocol and wireless emulation research.
+        
     Awards:
       - title: International Conference Best Paper Awards (3-Time Recipient)
         authors:
@@ -179,7 +187,7 @@ cv:
           - "Dissertation: Studies on Improvement and Application of TCP with Network Coding in Lossy Networks."
 
       - institution: University of Science
-        location: Ho Chi Minh City, Vietnam
+        location: Ho Chi Minh City, VN
         area: Electronics and Telecommunications Engineering
         studyType: M.S. & B.S.
         start_date: "2005-09"
