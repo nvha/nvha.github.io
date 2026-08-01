@@ -2,7 +2,7 @@
 layout: page
 title: Scalable AWGN Hardware Emulator
 description: High-throughput, resource-optimized AWGN hardware emulator reaching 400 MHz on Intel Agilex 7 FPGAs with ±0.1 dB accuracy.
-img: assets/img/projects/awgn_emulator/DesignBlock_AWGN_Top-001-001.jpg
+img: assets/img/projects/awgn_emulator/Result_Sim_Dist-001-001.jpg
 importance: 2
 category: work
 related_publications: false
@@ -151,18 +151,30 @@ Validated SystemVerilog RTL (16-bit Q2.14 fixed-point) against a double-precisio
 ### 5.2 Multi-Channel Simulation & Error Metrics
 
 <div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/awgn_emulator/Result_Sim_WaveOverlay-001-001.jpg" title="Waveform Overlay" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+</div>
+<div class="caption">
+    Figure 5: Time-domain waveform overlay of the first 1000 samples.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/awgn_emulator/Result_Sim_Dist-001-001.jpg" title="Gaussian Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+</div>
+<div class="caption">
+    Figure 6: Measured hardware Gaussian probability density function (PDF).
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/awgn_emulator/Result_Sim_Err-001-001.jpg" title="Absolute Error Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left (Figure 5): Time-domain waveform overlay of the first 1000 samples. Middle (Figure 6): Measured hardware Gaussian probability density function (PDF). Right (Figure 7): Quantization and calculation error distribution relative to theoretical model.
+    Figure 7: Quantization and calculation error distribution relative to theoretical model.
 </div>
 
 * **Optimal Range ($0\text{ dB}$ to $25\text{ dB}$):** Injection error is strictly bounded within **$\pm 0.02\text{ dB}$**.
