@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scalable & Sustainable Linear WSNs via Erasure Coding TDMA
-description: "A proactive packet loss recovery framework integrating hop-by-hop Erasure Coding with optimized TDMA scheduling for long-distance linear infrastructure monitoring. -- KEYWORDS: Network Scheduling, Network Scalability, Low-Power Design, FEC Architectures, Packet Loss Masking, C++"
+description: "A proactive packet loss recovery framework integrating hop-by-hop Erasure Coding with optimized TDMA scheduling for long-distance linear infrastructure monitoring. <br>**Keywords:** Network Scheduling, Network Scalability, Low-Power Design, FEC Architectures, Packet Loss Masking, C++"
 img: assets/img/projects/tdma-nc/Example-001-001.jpg
 importance: 1
 category: work
