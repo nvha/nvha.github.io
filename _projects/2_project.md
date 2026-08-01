@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scalable AWGN Hardware Emulator
-description: "High-throughput, resource-optimized AWGN hardware emulator reaching 400 MHz on Intel Agilex 7 FPGAs with ±0.1 dB accuracy. <br>**Keywords:** , HW/SW Co-Design, Hardware Emulation, FPGA Design, RTL Design, DSP Algorithms, AXI, APB, SystemVerilog, C/C++, Python"
+description: "High-throughput, resource-optimized AWGN hardware emulator reaching 400 MHz on Intel Agilex 7 FPGAs with ±0.1 dB accuracy. <br><br>**Keywords:** , HW/SW Co-Design, Hardware Emulation, FPGA Design, RTL Design, DSP Algorithms, AXI, APB, SystemVerilog, C/C++, Python"
 img: assets/img/projects/awgn_emulator/Result_Sim_Dist-001-001.jpg
 importance: 1
 category: work
