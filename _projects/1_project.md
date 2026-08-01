@@ -2,7 +2,7 @@
 layout: page
 title: High-Speed HITL Link Emulation
 description: Multi-vendor FPGA link emulation platform bridging Intel Agilex 5 and AMD Kintex UltraScale+ with a 320 Gbps processing datapath.
-img: assets/img/projects/hitl/figure2.png
+img: assets/img/projects/HITL/figure2.png
 importance: 1
 category: work
 related_publications: false
@@ -41,10 +41,10 @@ The complete system topology is modeled as a formal end-to-end data processing c
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/hitl/figure1.png" title="Conceptual Block Diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/HITL/figure1.png" title="Conceptual Block Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/hitl/figure2.png" title="Physical Laboratory Hardware Setup" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/HITL/figure2.png" title="Physical Laboratory Hardware Setup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -81,7 +81,7 @@ This 320 Gbps internal capacity guarantees zero-drop line-rate processing for mu
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/hitl/figure3.png" title="Detailed Functional Flowchart" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/HITL/figure3.png" title="Detailed Functional Flowchart" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
