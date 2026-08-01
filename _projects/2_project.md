@@ -3,7 +3,7 @@ layout: page
 title: Scalable AWGN Hardware Emulator
 description: High-throughput, resource-optimized AWGN hardware emulator reaching 400 MHz on Intel Agilex 7 FPGAs with ±0.1 dB accuracy.
 img: assets/img/projects/awgn_emulator/Result_Sim_Dist-001-001.jpg
-importance: 2
+importance: 1
 category: work
 related_publications: false
 ---
