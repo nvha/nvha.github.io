@@ -92,34 +92,11 @@ Calculating optimal slot allocations for a multi-hop network typically requires 
 
 ### Algorithm 1: Joint Timeslot Alignment and Optimization
 
-> **Algorithm 1:** Joint Timeslot Alignment and Optimization
-> 
-> 1: $\mathcal{T} \leftarrow \mathcal{T}_\text{base}$  
-> 2: **while** $\mathcal{T} \le \mathcal{T}_\text{max}$ **do**  
-> 3: &nbsp;&nbsp;&nbsp;&nbsp; Get $T_{\text{limit}}$ and $\{d^{(j,t)}\}$ using $\mathcal{T}$ and $\{g_i\}$  
-> 4: &nbsp;&nbsp;&nbsp;&nbsp; **Step i:** Get $\{d(t)\}$, $\{q(t)\}$, $D_l$, $D_r$, and $\{M_{\text{target}}^{(t)}\}$ using $M_{\text{target}}$  
-> 5: &nbsp;&nbsp;&nbsp;&nbsp; **Step ii:** Initialize $\mathbf{C}_l^{\text{base}}$ by retrieving $\{c^{(t)}\}$ from $c\text{--table}\left(M_{\text{target}}^{(t)}, q^{(t)}, d^{(t)}\right)$ for all $t$  
-> 6: &nbsp;&nbsp;&nbsp;&nbsp; **Step iii: Alignment (using modified 1-HC)**  
-> 7: &nbsp;&nbsp;&nbsp;&nbsp; **while** $T(\mathbf{C}_l^{\text{base}}) \neq T_{\text{limit}}$ **do**  
-> 8: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **if** $T(\mathbf{C}_l^{\text{base}}) < T_{\text{limit}}$ **then**  
-> 9: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Increment timeslot with max gain (1-HC(+1))  
-> 10: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **else**  
-> 11: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Decrement timeslot with min loss (1-HC(-1))  
-> 12: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **end if**  
-> 13: &nbsp;&nbsp;&nbsp;&nbsp; **end while**  
-> 14: &nbsp;&nbsp;&nbsp;&nbsp; $\mathbf{C}_*^{\text{base}} \leftarrow \mathbf{C}_l^{\text{base}}$  
-> 15: &nbsp;&nbsp;&nbsp;&nbsp; **Step iv: Optimization ($k$-HC)**  
-> 16: &nbsp;&nbsp;&nbsp;&nbsp; $\mathbf{C}_l \leftarrow \mathbf{C}_*^{\text{base}}$  
-> 17: &nbsp;&nbsp;&nbsp;&nbsp; **repeat**  
-> 18: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Find candidate $\mathbf{C}_{**}^{\text{base}}$ from Move-Set table which maximizes $M(\mathbf{C}_{**}^{\text{base}}) - M(\mathbf{C}_l)$  
-> 19: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Update $\mathbf{C}_l \leftarrow \mathbf{C}_{**}^{\text{base}}$  
-> 20: &nbsp;&nbsp;&nbsp;&nbsp; **until** Convergence (no gain)  
-> 21: &nbsp;&nbsp;&nbsp;&nbsp; **if** $M(\mathbf{C}_l) \ge M_l^{\text{target}}$ **then**  
-> 22: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **return** $\mathbf{C}_l$  
-> 23: &nbsp;&nbsp;&nbsp;&nbsp; **end if**  
-> 24: &nbsp;&nbsp;&nbsp;&nbsp; $\mathcal{T} \leftarrow \mathcal{T} + \mathcal{T}_\text{base}$  
-> 25: **end while**  
-> 26: **return** Failure
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/tdma-nc/Algorithm1.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 #### Intermediate Node Packet Handling Pipeline
 1. **Data Aggregation:** Intermediate nodes store their own sensor readings alongside incoming packet buffers received from upstream neighbors.
@@ -244,22 +221,4 @@ This project delivers a practical, highly resilient communication architecture f
 </div>
 <div class="caption">
     Figure A4: Per-node daily average power consumption of the proposed method under varying link loss distribution cases.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/tdma-nc/Result_Overhead_5cases-001-001.jpg" title="Network Coding Overhead" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Figure A5: Network coding overhead for uplink data and downlink control traffic under varying link loss rates.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/tdma-nc/Result_MAE_N9_proposed-001-001.jpg" title="Mean Absolute Error across Search Ranges" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Figure A6: Mean absolute error of delivery probability between search range variances and the baseline search solution.
 </div>
