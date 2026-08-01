@@ -39,16 +39,22 @@ The experimental HITL system consists of eight key hardware entities spanning co
 
 The complete system topology is modeled as a formal end-to-end data processing chain across physical and logical boundaries.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/HITL/figure1.png" title="Conceptual Block Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+</div>
+<div class="caption">
+    Figure 1: Conceptual system block diagram illustrating end-to-end data pipelines, physical interconnects, and external SerDes clock distribution.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/HITL/figure2.png" title="Physical Laboratory Hardware Setup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left (Figure 1): Conceptual system block diagram illustrating end-to-end data pipelines, physical interconnects, and external SerDes clock distribution. Right (Figure 2): Physical laboratory hardware-in-the-loop setup demonstrating inter-board coaxial differential cabling and form-factor converters.
+    Figure 2: Physical laboratory hardware-in-the-loop setup demonstrating inter-board coaxial differential cabling and form-factor converters.
 </div>
 
 * **Ingress Stage ($\text{PC1} \rightarrow \text{DE25}$):** Test payloads are framed and transmitted across a Gigabit Ethernet network interface. The onboard Ethernet MAC on the Intel Agilex 5 converts byte-oriented network streams into internal wide-bus words.
