@@ -1,7 +1,7 @@
 ---
 layout: page
 title: High-Speed HITL Link Emulation
-description: Multi-vendor FPGA link emulation platform bridging Intel Agilex 5 and AMD Kintex UltraScale+ with a 320 Gbps processing datapath.
+description: Multi-vendor FPGA link emulation platform bridging Intel Agilex 5 and AMD Kintex UltraScale+ with a 320 Gbps processing datapath. KEYWORDS: Hardware Prototypes, FPGA Design, testbed setup, High-Speed Datapaths, Packet Processing, HW/SW Co-Design, SerDes, PCIe, DMA, Ethernet MAC/PHY
 img: assets/img/projects/HITL/figure2.png
 importance: 1
 category: work
