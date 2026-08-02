@@ -91,9 +91,18 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 
 I earned my Ph.D. in Computer Science & Systems Engineering from **Kyushu Institute of Technology** (Japan), serving as Principal Investigator (PI) for two competitive JSPS KAKEN research grants focusing on resilient protocol stacks and network reliability. 
 
-As Laboratory Supervisor and Co-founder of the **ICTLAB** at the **University of Science** (Vietnam), I directed 20+ graduate and undergraduate researchers, managed multi-year government and industry R&D grants ($100,000+ funded), and authored **40+ peer-reviewed international publications** earning 3 international Best Paper Awards. 
+As Laboratory Supervisor and Co-founder of [<img src="/assets/img/ICTLAB_Logo.jpg" style="height: 24px; vertical-align: middle; margin-right: 4px;" alt="ICTLAB Logo">**ICTLAB**](https://sites.google.com/view/ictlabvn) at the **University of Science** (Vietnam), I directed 20+ graduate and undergraduate researchers, managed multi-year government and industry R&D grants ($100,000+ funded), and authored **40+ peer-reviewed international publications** earning 3 international Best Paper Awards.
 
 Additionally, I have designed and delivered specialized graduate-level lectures on SDN architectures, OpenFlow control mechanisms, and Ryu/Mininet network topologies for the **City College of New York (CCNY)**.
+
+<div class="row justify-content-center">
+    <div class="col-sm-10 col-md-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ictlab_mem.jpg" title="ICTLAB Team" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption text-center">
+    Figure 4: ICTLAB researchlaboratory at the University of Science.
+</div>
 
 ---
 
