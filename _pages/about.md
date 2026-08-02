@@ -34,7 +34,7 @@ I am a **Principal Network Systems & Hardware Architect (Ph.D.)** with 8+ years 
 > **Cross-Functional Leadership:** Operating natively across traditional functional boundaries—capable of leading dedicated protocol/software groups, RTL design teams, or cross-functional HW/SW Co-Design divisions to transform complex protocol mathematics into production hardware & software architectures.
 
 <div class="row justify-content-center">
-    <div class="col-sm-11 col-md-9 mt-3 mt-md-0">
+    <div class="col-sm-10 col-md-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/dual_architect.jpg" title="Networking & FPGA Synergy" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -63,7 +63,7 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 * **SDN & Control Planes:** Self-healing dynamic routing protocols (SDN-FEDRP on RYU OpenFlow controllers) yielding a 7x load-balancing improvement over standard OSPF, paired with discrete-event network modeling in **ns-3** and **Mininet**.
 
 <div class="row">
-    <div class="col-sm-11 col-md-10 mt-3 mt-md-0">
+    <div class="col-sm-10 col-md-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/sdn_fedrp/Fig-Case2-OSPF-001-001.jpg" title="SDN-FEDRP on RYU OpenFlow controllers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -77,7 +77,7 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 * **Silicon Platforms & Emulation:** Heterogeneous Hardware-in-the-Loop (HITL) multi-board link emulation, real-time AWGN hardware generators (sweeping SNR from −30 dB to 45 dB), 4×4 MU-MIMO channel emulators, and 2×2 MIMO-OFDM baseband transceivers across **Intel Agilex 5 (DE25)**, **Intel Agilex 7**, **Stratix II/III/IV**, and **AMD Xilinx Kintex UltraScale+ (KU5P)** FPGAs with **TI LMK62E2** SerDes reference clocking.
 
 <div class="row">
-      <div class="col-sm-11 col-md-11 mt-3 mt-md-0">
+      <div class="col-sm-10 col-md-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/HITL/figure1.png" title="Conceptual Block Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
