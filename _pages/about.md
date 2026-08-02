@@ -35,7 +35,7 @@ I am a **Principal Network Systems & Hardware Architect (Ph.D.)** with 8+ years 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dual_architect.jpg" title="Networking & FPGA Synergy" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/dual_architect.jpg" title="Networking & FPGA Synergy" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption text-center">
@@ -68,7 +68,7 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 </div>
 <div class="caption">
     Figure 2: Path allocation using the Fairness-Enhanced Dynamic Routing Protocol (SDN-FEDRP).
-</div> 
+</div>
 
 #### 2. Hardware Architecture & FPGA Acceleration
 * **Full-Stack RTL & Logic Design:** SystemVerilog/Verilog, high-speed DSP pipelines, 512-bit wide AXI4-Stream interfaces (operating at 375MHz+), APB interfaces, and pre/post-silicon validation.
