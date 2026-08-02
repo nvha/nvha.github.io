@@ -33,8 +33,8 @@ I am a **Principal Network Systems & Hardware Architect (Ph.D.)** with 8+ years 
 
 > **Cross-Functional Leadership:** Operating natively across traditional functional boundaries—capable of leading dedicated protocol/software groups, RTL design teams, or cross-functional HW/SW Co-Design divisions to transform complex protocol mathematics into production hardware & software architectures.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-10 col-md-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/dual_architect.jpg" title="Networking & FPGA Synergy" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
