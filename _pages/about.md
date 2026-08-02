@@ -42,6 +42,7 @@ I am a **Principal Network Systems & Hardware Architect (Ph.D.)** with 8+ years 
 Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protocol architecture directly with physical FPGA silicon acceleration. <em>(Illustration generated via Gemini AI)</em>.
 </div>
 
+
 ---
 
 ### Key Metrics at a Glance
