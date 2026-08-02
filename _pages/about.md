@@ -63,7 +63,7 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 * **SDN & Control Planes:** Self-healing dynamic routing protocols (SDN-FEDRP on RYU OpenFlow controllers) yielding a 7x load-balancing improvement over standard OSPF, paired with discrete-event network modeling in **ns-3** and **Mininet**.
 
 <div class="row justify-content-center">
-    <div class="col-sm-10 col-md-9 mt-3 mt-md-0">
+    <div class="col-sm-10 col-md-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/sdn_fedrp/Fig-Case2-OSPF-001-001.jpg" title="SDN-FEDRP on RYU OpenFlow controllers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
