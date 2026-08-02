@@ -62,12 +62,12 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 * **Programmable Data Planes (P4) & Observability:** P4-16 in-band telemetry (INT) in ns-3 and BMv2 with custom 8-byte control headers (`Success_Check`) for microsecond-precision queue/jitter tracking and localized recirculation port fast-reroute packet recovery.
 * **SDN & Control Planes:** Self-healing dynamic routing protocols (SDN-FEDRP on RYU OpenFlow controllers) yielding a 7x load-balancing improvement over standard OSPF, paired with discrete-event network modeling in **ns-3** and **Mininet**.
 
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-sm-10 col-md-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/sdn_fedrp/Fig-Case2-OSPF-001-001.jpg" title="SDN-FEDRP on RYU OpenFlow controllers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-center">
     Figure 2: Path allocation using the Fairness-Enhanced Dynamic Routing Protocol (SDN-FEDRP).
 </div>
 
@@ -76,12 +76,12 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 * **FPGA Datapaths & Offloading:** Ultra-wide 1024-bit packet processing pipelines, host-to-FPGA PCIe 3.0x4 DMA streaming, and custom protocol offload engines.
 * **Silicon Platforms & Emulation:** Heterogeneous Hardware-in-the-Loop (HITL) multi-board link emulation, real-time AWGN hardware generators (sweeping SNR from −30 dB to 45 dB), 4×4 MU-MIMO channel emulators, and 2×2 MIMO-OFDM baseband transceivers across **Intel Agilex 5 (DE25)**, **Intel Agilex 7**, **Stratix II/III/IV**, and **AMD Xilinx Kintex UltraScale+ (KU5P)** FPGAs with **TI LMK62E2** SerDes reference clocking.
 
-<div class="row">
+<div class="row justify-content-center">
       <div class="col-sm-10 col-md-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/HITL/figure1.png" title="Conceptual Block Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-center">
     Figure 3: Conceptual system block diagram illustrating Heterogeneous Hardware-in-the-Loop (HITL) multi-board link emulation.
 </div>
 
