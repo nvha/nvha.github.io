@@ -24,7 +24,7 @@ latest_posts:
 
 I am a **Principal Network Systems & Hardware Architect (Ph.D.)** with 8+ years of technical R&D leadership. My core value proposition is a seamless **2-in-1 capability**: architecting scale-out network transport protocols and realizing them directly in ultra-high-speed FPGA silicon.
 
-| 🌐 TRACK 1: Network Systems & Protocol Architecture | 🔷 TRACK 2: FPGA Acceleration & Hardware Engineering |
+| <i class="fa-solid fa-network-wired"></i> TRACK 1: Network Systems & Protocol Architecture | <i class="fa-solid fa-microchip"></i> TRACK 2: FPGA Acceleration & Hardware Engineering |
 | :--- | :--- |
 | **Low-Latency Transport:** TCP/NC, Loss-Masking Proxies, AQM | **RTL & Logic Design:** SystemVerilog, Verilog, DSP Pipelines |
 | **Programmable Data Planes:** P4-16, INT Telemetry, BMv2 | **Ultra-Wide Datapaths:** 1024-bit / 320 Gbps AXI4-Stream |
