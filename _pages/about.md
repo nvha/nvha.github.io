@@ -64,7 +64,7 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/HITL/Fig-Case2-OSPF-001-001.jpg" title="SDN-FEDRP on RYU OpenFlow controllers" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/sdn_fedrp/Fig-Case2-OSPF-001-001.jpg" title="SDN-FEDRP on RYU OpenFlow controllers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
