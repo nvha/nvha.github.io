@@ -2,7 +2,7 @@
 layout: page
 title: Scalable AWGN Hardware Emulator
 description: "High-throughput, resource-optimized AWGN hardware emulator reaching 400 MHz on Intel Agilex FPGAs with ±0.1 dB accuracy. <br><br>**Keywords:** HW/SW Co-Design, Hardware Emulation, FPGA Design, RTL Design, DSP Algorithms, AXI, APB, SystemVerilog, C/C++, Python"
-img: assets/img/projects/awgn_emulator/Result_Sim_Dist-001-001.jpg
+img: assets/img/projects/awgn_emulator/HPS-to-FPGA.jpg
 importance: 1
 category: work
 related_publications: false
@@ -14,21 +14,14 @@ This project presents a high-throughput, resource-optimized **Additive White Gau
 
 Driven by an embedded **Linux OS running on the Agilex Hard Processor System (HPS)**, the system features a dynamic C/C++ HW/SW co-design platform. Operating at a **400 MHz core clock** on an Intel Agilex FPGA, the shared-resource datapath supports variable sample rates from **375 MSPS up to 6 GSPS** across arbitrary $N$-channel configurations ($N \le 64$) while maintaining a lightweight FPGA footprint.
 
-```text
-+-----------------------------------------------------------------------------------+
-|                                Agilex FPGA / HPS SoC                              |
-|                                                                                   |
-|  +--------------------+        APB Bus       +---------------------------------+  |
-|  | Linux Kernel (HPS) | <------------------> | AWGN Controller & Register Bank |  |
-|  | C/C++ Drivers      |                      +---------------------------------+  |
-|  +--------------------+                                       |                   |
-|                                                               v                   |
-|  +-----------------+      +----------+      +----------------------------------+  |
-|  | Multi-User Data | ---> | Framer / | ---> | Shared Multi-Lane AWGN Engine    |  |
-|  | Streams (1..N)  |      | Deframer |      | (Taus258 + Box-Muller + EMA Est) |  |
-|  +-----------------+      +----------+      +----------------------------------+  |
-+-----------------------------------------------------------------------------------+
-```
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/awgn_emulator/APB.jpg" title="Agilex FPGA / HPS SoC Architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 1: Top-level Agilex FPGA/HPS SoC architecture diagram illustrating the interaction between the Linux kernel drivers, Framer/Deframer pipelines, and the shared multi-lane AWGN engine.
+</div>
 
 ### Key Highlights
 
@@ -48,26 +41,21 @@ Driven by an embedded **Linux OS running on the Agilex Hard Processor System (HP
     </div>
 </div>
 <div class="caption">
-    Figure 1: System architecture block diagram illustrating the datapath, adder trees, and multi-channel resource distribution.
+    Figure 2: System architecture block diagram illustrating the datapath, adder trees, and multi-channel resource distribution.
 </div>
 
 ### 2.1 Linux HPS & C Driver Architecture
 
 The control plane is hosted on an embedded Linux distribution running on the ARM Cortex-A53 Hard Processor System (HPS). The FPGA register map is mapped into user space via Linux UIO drivers (`/dev/uioX`) through a 32-bit APB slave interface.
 
-```text
-       USER SPACE (Linux HPS)               |           FPGA HARDWARE
-                                            |
- +-------------------+  +-----------------+ |  +---------------------------+
- | awgn_config.c     |  | awgn_monitor.c  | |  | APB Slave Interface       |
- | (Init & Hardware) |  | (Live Telemetry)| |  | (Memory-Mapped Registers) |
- +-------------------+  +-----------------+ |  +---------------------------+
-           \                     /          |                |
-            v                   v           |                v
-      +-------------------------------+     |    +-----------------------+
-      | /dev/uioX (Memory Mapped)     | <----->  | AWGN Pipeline Regs    |
-      +-------------------------------+     |    +-----------------------+
-```
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/awgn_emulator/HPS-to-FPGA.jpg" title="HW/SW Co-Design Interface" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 3: HW/SW co-design architecture detailing Linux HPS user-space C drivers communicating with FPGA memory-mapped APB registers through the UIO framework.
+</div>
 
 The control system consists of two dynamic C driver applications:
 
@@ -124,7 +112,7 @@ Where amplitude $f = \sqrt{-2 \ln(u_0)}$ and phase $\theta = 2\pi u_1$.
     </div>
 </div>
 <div class="caption">
-    Figure 2: Pipeline-aligned Box-Muller transformation engine architecture.
+    Figure 4: Pipeline-aligned Box-Muller transformation engine architecture.
 </div>
 
 ---
@@ -147,7 +135,7 @@ $$\text{SNR}_{\text{dB}} = \left(\frac{E_s}{N_0}\right)_{\text{dB}} - 10 \log_{1
     </div>
 </div>
 <div class="caption">
-    Figure 3: Online Exponential Moving Average (EMA) power estimation and noise scaling module.
+    Figure 5: Online Exponential Moving Average (EMA) power estimation and noise scaling module.
 </div>
 
 ---
@@ -160,7 +148,7 @@ $$\text{SNR}_{\text{dB}} = \left(\frac{E_s}{N_0}\right)_{\text{dB}} - 10 \log_{1
     </div>
 </div>
 <div class="caption">
-    Figure 4: APB control plane integration and top-level module register mapping.
+    Figure 6: APB control plane integration and top-level module register mapping.
 </div>
 
 | Address | Bit Range | Access | Register Name | Description |
@@ -210,7 +198,7 @@ Validated SystemVerilog RTL (16-bit Q2.14 fixed-point) against a double-precisio
     </div>
 </div>
 <div class="caption">
-    Figure 5: Time-domain waveform overlay of the first 1000 samples.
+    Figure 7: Time-domain waveform overlay of the first 1000 samples.
 </div>
 
 <div class="row">
@@ -219,7 +207,7 @@ Validated SystemVerilog RTL (16-bit Q2.14 fixed-point) against a double-precisio
     </div>
 </div>
 <div class="caption">
-    Figure 6: Measured hardware Gaussian probability density function (PDF).
+    Figure 8: Measured hardware Gaussian probability density function (PDF).
 </div>
 
 <div class="row">
@@ -228,7 +216,7 @@ Validated SystemVerilog RTL (16-bit Q2.14 fixed-point) against a double-precisio
     </div>
 </div>
 <div class="caption">
-    Figure 7: Quantization and calculation error distribution relative to theoretical model.
+    Figure 9: Quantization and calculation error distribution relative to theoretical model.
 </div>
 
 ---
@@ -290,7 +278,7 @@ Extracted directly from the FPGA histogram hardware block, the software plots a 
     </div>
 </div>
 <div class="caption">
-    Figure 8: Live terminal output displaying the real-time 64-bin Gaussian PDF histogram monitored via the embedded Linux C driver.
+    Figure 10: Live terminal output displaying the real-time 64-bin Gaussian PDF histogram monitored via the embedded Linux C driver.
 </div>
 ---
 
