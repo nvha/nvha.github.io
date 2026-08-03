@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scalable AWGN Hardware Emulator
-description: "High-throughput, resource-optimized AWGN hardware emulator reaching 400 MHz on Intel Agilex FPGAs with ±0.1 dB accuracy. <br><br>**Keywords:** HW/SW Co-Design, Hardware Emulation, FPGA Design, RTL Design, DSP Algorithms, AXI, APB, SystemVerilog, C/C++, Python"
+description: "High-throughput, resource-optimized AWGN hardware emulator reaching 400 MHz on Intel Agilex FPGAs and AMD Kintex UltraScale+ with ±0.1 dB accuracy. <br><br>**Keywords:** HW/SW Co-Design, Hardware Emulation, FPGA Design, RTL Design, DSP Algorithms, AXI, APB, SystemVerilog, C/C++, Python"
 img: assets/img/projects/awgn_emulator/HPS-to-FPGA.jpg
 importance: 1
 category: work
@@ -10,9 +10,9 @@ related_publications: false
 
 ## 1. Executive Summary
 
-This project presents a high-throughput, resource-optimized **Additive White Gaussian Noise (AWGN) Hardware Emulation System** designed for satellite (DVB-S2X) and wideband wireless communications testbeds. Integrated into a multi-rate SoC architecture featuring an **AXI4 Crossbar** and **Framer/Deframer pipelines**, the design injects frame-synchronized, mathematically precise Gaussian noise across multiple high-speed user data streams simultaneously.
+This project presents a high-throughput, resource-optimized **Additive White Gaussian Noise (AWGN) Hardware Emulation System** designed for wireless communications testbeds. Integrated into a multi-rate SoC architecture featuring an **AXI4 Crossbar** and **Framer/Deframer pipelines**, the design injects frame-synchronized, mathematically precise Gaussian noise across multiple high-speed user data streams simultaneously.
 
-Driven by an embedded **Linux OS running on the Agilex Hard Processor System (HPS)**, the system features a dynamic C/C++ HW/SW co-design platform. Operating at a **400 MHz core clock** on an Intel Agilex FPGA, the shared-resource datapath supports variable sample rates from **375 MSPS up to 6 GSPS** across arbitrary $N$-channel configurations ($N \le 64$) while maintaining a lightweight FPGA footprint.
+Driven by an embedded **Linux OS running on the Agilex Hard Processor System (HPS)**, the system features a dynamic C/C++ HW/SW co-design platform. Operating at a **400 MHz core clock** on an Intel Agilex FPGA and AMD Kintex UltraScale+, the shared-resource datapath supports variable sample rates from **375 MSPS up to 6 GSPS** across arbitrary $N$-channel configurations ($N \le 64$) while maintaining a lightweight FPGA footprint.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
