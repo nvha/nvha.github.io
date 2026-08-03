@@ -133,7 +133,7 @@ Under severe bi-directional burst loss conditions (10% forward loss, 20% reverse
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/tcpnc/ThroughputVsGoodput.png" title="Bandwidth Efficiency (Goodput vs Throughput)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/tcpnc/ThroughputVsGoodput-001-001.jpg" title="Bandwidth Efficiency (Goodput vs Throughput)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -144,7 +144,7 @@ Under severe bi-directional burst loss conditions (10% forward loss, 20% reverse
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/tcpnc/Result_CWND_r005_l4.png" title="Congestion Window Dynamics Over Time" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/tcpnc/Result_CWND_r005_l4-001-001.jpg" title="Congestion Window Dynamics Over Time" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -159,7 +159,7 @@ Under severe bi-directional burst loss conditions (10% forward loss, 20% reverse
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/tcpnc/Result_Gilbert_l2_Dataloss_100Mbps.png" title="100 Mbps High-Speed Performance Comparison" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/tcpnc/Result_Gilbert_l2_Dataloss_100Mbps-001-001.jpg" title="100 Mbps High-Speed Performance Comparison" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
