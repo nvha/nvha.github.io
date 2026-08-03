@@ -42,7 +42,6 @@ I am a **Principal Network Systems & Hardware Architect (Ph.D.)** with 8+ years 
 Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protocol architecture directly with physical FPGA silicon acceleration. <em>(Illustration generated via Gemini AI)</em>.
 </div>
 
-
 ---
 
 ### Key Metrics at a Glance
@@ -77,7 +76,7 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 * **Silicon Platforms & Emulation:** Heterogeneous Hardware-in-the-Loop (HITL) multi-board link emulation, real-time AWGN hardware generators (sweeping SNR from −30 dB to 45 dB), 4×4 MU-MIMO channel emulators, and 2×2 MIMO-OFDM baseband transceivers across **Intel Agilex 5 (DE25)**, **Intel Agilex 7**, **Stratix II/III/IV**, and **AMD Xilinx Kintex UltraScale+ (KU5P)** FPGAs with **TI LMK62E2** SerDes reference clocking.
 
 <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-12 mt-3 mt-md-0">
+    <div class="col-sm-12 col-md-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/HITL/figure1.png" title="Conceptual Block Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -101,7 +100,7 @@ Additionally, I have designed and delivered specialized graduate-level lectures 
     </div>
 </div>
 <div class="caption text-center">
-    Figure 4: ICTLAB researchlaboratory at the University of Science.
+    Figure 4: ICTLAB research group and laboratory members at the University of Science.
 </div>
 
 ---
