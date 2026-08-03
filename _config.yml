@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: networking, SDN, OpenFlow, P4, transport-protocols, TCP-NC, FPGA, loss-masking, ns-3, hardware-software-codesign # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /assets/img/ICTLAB_Logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ICTLAB_Logo.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://nvha.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
