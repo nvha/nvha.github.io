@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-05'
 papers:
   su5uMxAAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -34,7 +34,7 @@ papers:
     title: On reducing measurement load on control-plane in locating high packet-delay variance links for openflow networks
     year: '2021'
   su5uMxAAAAAJ:IWHjjKOFINEC:
-    citations: 2
+    citations: 1
     title: Tolerance of TCP with network coding to reverse-direction packet loss and packet reordering
     year: '2018'
   su5uMxAAAAAJ:IjCSPb-OGe4C:
@@ -98,7 +98,7 @@ papers:
     title: Design and Implementation of a Turbo Code System on FPGA
     year: '2011'
   su5uMxAAAAAJ:Y0pCki6q_DkC:
-    citations: 6
+    citations: 5
     title: Fpga implementation of mimo-ofdm stbc systems
     year: '2012'
   su5uMxAAAAAJ:YOwf2qJgpHMC:
@@ -130,7 +130,7 @@ papers:
     title: Dynamic Queue Management and Packet Loss Mitigation in P4-Enabled Data Planes
     year: '2025'
   su5uMxAAAAAJ:d1gkVwhDpl0C:
-    citations: 12
+    citations: 11
     title: TCP Network Coding with Enhanced Retransmission for heavy and bursty loss
     year: '2016'
   su5uMxAAAAAJ:dhFuZR0502QC:
@@ -166,7 +166,7 @@ papers:
     title: Signal Quality Indices Based on Gain of Amplitude Difference for Wearable ECG Signals
     year: '2023'
   su5uMxAAAAAJ:isC4tDSrTZIC:
-    citations: 4
+    citations: 3
     title: Convergence evaluation of OFDMA-IDMA combination based on IEEE 802.11 ax
     year: '2024'
   su5uMxAAAAAJ:j3f4tGmQtD8C:
@@ -191,7 +191,7 @@ papers:
     year: '2021'
   su5uMxAAAAAJ:maZDTaKrznsC:
     citations: 2
-    title: Network Coding in TDMA-based Scheduling for Fluctuating Linear Wireless Sensor Networks
+    title: Network coding in TDMA-based scheduling for fluctuating linear wireless sensor networks
     year: '2024'
   su5uMxAAAAAJ:qUcmZB5y_30C:
     citations: 13
@@ -206,7 +206,7 @@ papers:
     title: EEG-ECG Extraction for Wearable All-in-One Healthcare Device
     year: '2023'
   su5uMxAAAAAJ:roLk4NBRz8UC:
-    citations: 11
+    citations: 10
     title: TCP network coding with adapting parameters for bursty and time-varying loss
     year: '2018'
   su5uMxAAAAAJ:u-x6o8ySG0sC:
