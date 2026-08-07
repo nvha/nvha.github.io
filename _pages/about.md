@@ -51,7 +51,7 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 * **Multi-Board HITL Link Emulation** Real-time AWGN hardware generators (−30 to +45 dB SNR) & SerDes interconnects
 * **>99% Reliability in Low-Power WSNs** Sustained under severe 50% link-loss via joint TDMA & Erasure Coding
 * **7x SDN Load Balancing** over OSPF & **36% Multicast Transfer Time Reduction** via P4 data planes
-* **40+ Peer-Reviewed Publications** (3 Best Paper Awards) & **17 Funded R&D Grants**
+* **40+ Peer-Reviewed Publications** (3 Best Paper Awards) & **15 Funded R&D Grants**
   
 ---
 
