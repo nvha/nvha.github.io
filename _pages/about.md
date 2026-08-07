@@ -26,7 +26,7 @@ I am a **Principal Network Systems & Hardware Architect (Ph.D.)** with 8+ years 
 
 | <i class="fa-solid fa-network-wired"></i> TRACK 1: Network Systems & Protocol Architecture | <i class="fa-solid fa-microchip"></i> TRACK 2: FPGA Acceleration & Hardware Engineering |
 | :--- | :--- |
-| **Low-Latency Transport:** TCP/NC, Loss-Masking Proxies, AQM | **RTL & Logic Design:** SystemVerilog, Verilog, DSP Pipelines |
+| **Transport & Wireless Protocols:** TCP/NC, TDMA MAC, WSN Architectures, AQM | **RTL & Logic Design:** SystemVerilog, Verilog, DSP Pipelines |
 | **Programmable Data Planes:** P4-16, INT Telemetry, BMv2 | **Ultra-Wide Datapaths:** 1024-bit / 320 Gbps AXI4-Stream |
 | **SDN & Control Planes:** OpenFlow, Ryu Controller, Dynamic Routing | **Offload Engines:** PCIe 3.0x4 DMA, APB Memory-Mapped CSRs |
 | **Network Simulation:** ns-3 (C++/Python), Mininet, Scapy | **Silicon Platforms:** Intel Agilex 5/7, Stratix, AMD Xilinx Kintex |
