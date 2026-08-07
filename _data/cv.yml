@@ -82,7 +82,7 @@ cv:
           - "Mentored student teams to competitive success, including a 2nd-place national finish in the Cisco NetRiders contest (2013)."
           - "Maintained active certifications as a CCAI (Cisco Certified Academy Instructor) for CCNA/Security and MCSE/MCSA."
 
-    Projects:
+    Projects (seleted):
       - name: High-Speed Hardware-in-the-Loop (HITL) Link Emulation
         summary: Multi-vendor HITL emulation system bridging Intel Agilex 5 and Xilinx Kintex UltraScale+ FPGAs over HSMC-XTS and PCIe 3.0x4 interfaces.
         start_date: "2026-04"
@@ -159,16 +159,25 @@ cv:
           - "Designed a Parallel Concatenated Convolutional Code (PCCC) Turbo Encoder and Soft Output Viterbi Algorithm (SOVA) decoder on FPGA, optimizing metric updates by tracking a single ML survivor route to reduce computational complexity."
           - "Maintained model-to-silicon arithmetic accuracy by utilizing a 32-bit fixed-point (10.22 format) representation, resulting in a hardware Bit Error Rate (BER) performance that exactly matched software models."
 
-    Awards:
+    Awards (selected):
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (C-Type)'
+        awarder: "Vietnam National University"
+        date: "2024"
+        summary: "Co-Investigator ($10,000 USD, Jan 2024 – Jan 2025). Topic: Design a MAC-PHY cross-layer to increase the number of users for next-generation wireless communication."
+
       - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (B-Type)'
         awarder: "Vietnam National University"
         date: "2023"
-        summary: "Principal Investigator ($26,000 USD, Feb 2023 – Present). Topic: Architecture and implementation of reliable and high-speed data transfer model in edge clouds for future smart cities."
+        summary: "Principal Investigator ($30,000 USD, Feb 2023 – Feb 2026). Topic: Architecture and implementation of reliable and high-speed data transfer model in edge clouds for future smart cities."
+
+        - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> VNUHCM-University of Science Research Grant"
+        date: "2024"
+        summary: "Co-Investigator ($5,000 USD, Sep 2023 – Sep 2024). Topic: Research on Multi-User Transmission Technique for New Generation Communication Systems."      
 
       - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> ITR VN Industry-Academia R&D Grant'
         awarder: "ITR VN Corporation"
         date: "2022"
-        summary: "Co-Investigator ($45,000 USD, Sep 2022 – Sep 2023). Topic: Smart, Reliable, Low-Power, and Compact All-in-One Health Indicator Sensor."
+        summary: "Co-Investigator ($50,000 USD, Sep 2022 – Sep 2023). Topic: Smart, Reliable, Low-Power, and Compact All-in-One Health Indicator Sensor."
 
       - title: '<img src="/assets/img/awards/award_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Best Paper Award'
         awarder: "8th IEEE Information Technology International Seminar (ITIS-2022)"
@@ -188,12 +197,12 @@ cv:
       - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (C-Type)'
         awarder: "Vietnam National University"
         date: "2022"
-        summary: "Co-Investigator (Apr 2022 – Jul 2023). Topic: Development of Industrial Wireless LAN with Low Latency and High-Accuracy Time Synchronization for Industry 5.0."
+        summary: "Co-Investigator ($5,000 USD, Apr 2022 – Jul 2023). Topic: Development of Industrial Wireless LAN with Low Latency and High-Accuracy Time Synchronization for Industry 5.0."
 
       - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> VNUHCM Industrial Wireless Systems Grant'
         awarder: "VNUHCM - University of Science"
         date: "2022"
-        summary: "Co-Investigator (Apr 2022 – Jan 2023). Topic: Research on Industrial Wireless LAN systems with high transmission rates for Industry 5.0."
+        summary: "Co-Investigator ($5,000 USD, Apr 2022 – Jan 2023). Topic: Research on Industrial Wireless LAN systems with high transmission rates for Industry 5.0."
 
       - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> JSPS KAKEN Grant-in-Aid for Early-Career Scientists'
         awarder: "Japan Society for the Promotion of Science (JSPS)"
@@ -213,7 +222,7 @@ cv:
       - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (C-Type)'
         awarder: "Vietnam National University"
         date: "2018"
-        summary: "Principal Investigator (Apr 2018 – Mar 2020). Topic: Study and application of network coding for improving quality of data transfer in lossy networks."
+        summary: "Principal Investigator ($10,000 USD, Apr 2018 – Mar 2020). Topic: Study and application of network coding for improving quality of data transfer in lossy networks."
 
       - title: '<img src="/assets/img/awards/award_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> KDDI Research Foundation Scholarship'
         awarder: "KDDI Foundation, Japan"
@@ -236,9 +245,9 @@ cv:
           - Ha Nguyen
         publisher: IEEE / IEICE / Scopus
         releaseDate: "2026-04"
-        summary: Authored over 40 peer-reviewed international papers (including 7 journal articles), specializing in transport layer optimization (TCP/NC), P4 programmable data planes, congestion control, packet loss recovery, and wireless hardware emulation.
+        summary: Authored over 40 peer-reviewed international papers (including 7 journal articles), specializing in network scheduling (TDMA based), transport layer optimization (TCP/NC), P4 programmable data planes, congestion control, packet loss recovery, and wireless hardware emulation.
 
-    Certificates:
+    Certificates (seleceted):
       - name: "Master Teacher Training Program"
         date: "2017-12-01"
         issuer: "Arizona State University"
