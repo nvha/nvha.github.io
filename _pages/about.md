@@ -57,7 +57,7 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 ### Core Engineering Pillars
 
 #### 1. Network Systems, Protocols & SDN (Primary Focus)
-**TDMA & Deterministic MAC Protocols:** Time Division Multiple Access (TDMA) dynamic slot allocation architectures, microsecond-level frame synchronization protocols, and collision-free channel access scheduling for bounded-latency wireless and mesh networks.
+* **TDMA & Deterministic MAC Protocols:** Time Division Multiple Access (TDMA) dynamic slot allocation architectures, microsecond-level frame synchronization protocols, and collision-free channel access scheduling for bounded-latency wireless and mesh networks.
 * **High-Speed Transport Protocols:** Loss-masking transport frameworks (TCP/NC), custom ACK accumulation state machines, proactive FEC, duplicate ACK generators, and tail-latency elimination.
 * **Programmable Data Planes (P4) & Observability:** P4-16 in-band telemetry (INT) in ns-3 and BMv2 with custom 8-byte control headers (`Success_Check`) for microsecond-precision queue/jitter tracking and localized recirculation port fast-reroute packet recovery.
 * **SDN & Control Planes:** Self-healing dynamic routing protocols (SDN-FEDRP on RYU OpenFlow controllers) yielding a 7x load-balancing improvement over standard OSPF, paired with discrete-event network modeling in **ns-3** and **Mininet**.
