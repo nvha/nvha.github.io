@@ -46,12 +46,13 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 
 ### Key Metrics at a Glance
 
-* **8+ Years** of Advanced R&D in Full-Stack Hardware & Network Systems Architecture
-* **320 Gbps** Internal FPGA Pipeline Capacity (1024-bit Datapath @ 312.5 MHz)
-* **7x SDN Load Balancing** over OSPF & **36% Multicast Transfer Time Reduction** via P4
-* **>99% Network Reliability** Sustained Under Severe 50% Link-Loss Conditions
-* **40+ Peer-Reviewed Publications** (IEEE / IEICE / Scopus) & **$100,000+** in PI Research Grants
-
+* **8+ Years** of Advanced R&D Leadership in Full-Stack HW/SW Co-Design & Protocol Architecture
+* **320 Gbps** Internal FPGA Datapath Capacity (1024-bit @ 312.5 MHz across Agilex 5/7 & Kintex UltraScale+)
+* **Multi-Board HITL Link Emulation** Real-time AWGN hardware generators (−30 to +45 dB SNR) & SerDes interconnects
+* **>99% Reliability in Low-Power WSNs** Sustained under severe 50% link-loss via joint TDMA & Erasure Coding
+* **7x SDN Load Balancing** over OSPF & **36% Multicast Transfer Time Reduction** via P4 data planes
+* **40+ Peer-Reviewed Publications** (3 Best Paper Awards) & **17 Funded R&D Grants**
+  
 ---
 
 ### Core Engineering Pillars
@@ -89,7 +90,7 @@ Figure 1: The HW/SW Co-Design Engine: Fusing scale-out network transport protoco
 
 ### Research Leadership & Academic Background
 
-I earned my Ph.D. in Computer Science & Systems Engineering from **Kyushu Institute of Technology** (Japan), serving as Principal Investigator (PI) for two competitive JSPS KAKEN research grants focusing on resilient protocol stacks and network reliability. 
+I earned my Ph.D. in Computer Science & Systems Engineering from **Kyushu Institute of Technology** (Japan), serving as Principal Investigator (PI) and key researcher across **15 competitive national and international R&D grants** focusing on resilient protocol stacks, network reliability, low-latency industrial WLAN, and MAC-PHY cross-layer design. 
 
 As Laboratory Supervisor and Co-founder of [<img src="assets/img/ICTLAB_Logo.jpg" style="height: 24px; vertical-align: middle; margin-right: 4px;" alt="ICTLAB Logo">**ICTLAB**](https://sites.google.com/view/ictlabvn) at the **University of Science** (Vietnam), I directed 20+ graduate and undergraduate researchers, managed multi-year government and industry R&D grants ($100,000+ funded), and authored **40+ peer-reviewed international publications** earning 3 international Best Paper Awards.
 
