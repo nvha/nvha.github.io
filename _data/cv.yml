@@ -137,7 +137,7 @@ cv:
           - "Designed a Parallel Concatenated Convolutional Code (PCCC) Turbo Encoder and Soft Output Viterbi Algorithm (SOVA) decoder on FPGA, optimizing metric updates by tracking a single ML survivor route to reduce computational complexity."
           - "Maintained model-to-silicon arithmetic accuracy by utilizing a 32-bit fixed-point (10.22 format) representation, resulting in a hardware Bit Error Rate (BER) performance that exactly matched software models."
 
-    Awards (selected):
+    Awards:
       - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> Vietnam National University Research Grant (C-Type)'
         awarder: "Vietnam National University"
         date: "2024"
