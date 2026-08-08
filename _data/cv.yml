@@ -170,7 +170,7 @@ cv:
         date: "2023"
         summary: "Principal Investigator ($30,000 USD, Feb 2023 – Feb 2026). Topic: Architecture and implementation of reliable and high-speed data transfer model in edge clouds for future smart cities."
 
-        - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> VNUHCM-University of Science Research Grant"
+      - title: '<img src="/assets/img/awards/grant_logo.png" style="height: 18px; margin-right: 6px; vertical-align: middle;"> VNUHCM-University of Science Research Grant"
         date: "2024"
         summary: "Co-Investigator ($5,000 USD, Sep 2023 – Sep 2024). Topic: Research on Multi-User Transmission Technique for New Generation Communication Systems."      
 
